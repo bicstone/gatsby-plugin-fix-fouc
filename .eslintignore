@@ -1,4 +1,7 @@
-.yarn/
-node_modules/
+/.yarn
+
+/coverage
+/node_modules
+
 /*.js
 /*.d.ts
