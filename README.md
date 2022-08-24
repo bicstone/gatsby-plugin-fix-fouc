@@ -1,7 +1,9 @@
 # Gatsby Plugin Fix FOUC
 
 [![CI](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/ci.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/ci.yml)
+
 <!-- [![coverage](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/coverage.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/coverage.yml) -->
+
 [![njsscan sarif](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/njsscan-analysis.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/njsscan-analysis.yml)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbicstone%2Fgatsby-plugin-fix-fouc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbicstone%2Fgatsby-plugin-fix-fouc?ref=badge_shield)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bicstone_gatsby-plugin-fix-fouc&metric=alert_status)](https://sonarcloud.io/dashboard?id=bicstone_gatsby-plugin-fix-fouc)
