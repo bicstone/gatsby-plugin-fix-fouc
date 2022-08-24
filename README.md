@@ -68,7 +68,7 @@ const config: GatsbyConfig = {
 export default config;
 ```
 
-### Options
+## Options
 
 | Property        | Type   | Default                             | Description                                                                                                                  |
 | --------------- | ------ | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -76,7 +76,26 @@ export default config;
 | `minWidth`      | number | `0`                                 | The minimum width (px) of hides the page. If not set, hides regardless of width.                                             |
 | `timeout`       | number | `2000`                              | The time (milliseconds) of the timer should wait before shows the page as a fallback even if the initial render is not done. |
 
-### LICENCE
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.ideapod.com/"><img src="https://avatars.githubusercontent.com/u/3660370?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ideapod</b></sub></a><br /><a href="https://github.com/bicstone/gatsby-plugin-fix-fouc/commits?author=ideas" title="Code">💻</a></td>
+    <td align="center"><a href="https://bicstone.me/"><img src="https://avatars.githubusercontent.com/u/47806818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oishi Takanori</b></sub></a><br /><a href="#ideas-bicstone" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/bicstone/gatsby-plugin-fix-fouc/commits?author=bicstone" title="Code">💻</a> <a href="#maintenance-bicstone" title="Maintenance">🚧</a> <a href="#question-bicstone" title="Answering Questions">💬</a> <a href="https://github.com/bicstone/gatsby-plugin-fix-fouc/commits?author=bicstone" title="Documentation">📖</a> <a href="https://github.com/bicstone/gatsby-plugin-fix-fouc/pulls?q=is%3Apr+reviewed-by%3Abicstone" title="Reviewed Pull Requests">👀</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## LICENCE
 
 MIT License
 
