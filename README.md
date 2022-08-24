@@ -1,13 +1,13 @@
 # Gatsby Plugin Fix FOUC
 
 [![CI](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/ci.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/ci.yml)
-[![coverage](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/coverage.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/coverage.yml)
+<!-- [![coverage](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/coverage.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/coverage.yml) -->
 [![njsscan sarif](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/njsscan-analysis.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/njsscan-analysis.yml)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbicstone%2Fgatsby-plugin-fix-fouc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbicstone%2Fgatsby-plugin-fix-fouc?ref=badge_shield)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bicstone_gatsby-plugin-fix-fouc&metric=alert_status)](https://sonarcloud.io/dashboard?id=bicstone_gatsby-plugin-fix-fouc)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/bicstone/gatsby-plugin-fix-fouc.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bicstone/gatsby-plugin-fix-fouc/alerts/)
-[![DeepSource](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc.svg/?label=active+issues&token=iPw2LS4cY5EQQH_JiN72YOr2)](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc/?ref=repository-badge)
-[![codecov](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc/branch/master/graph/badge.svg?token=QRLLFDZD15)](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc)
+[![DeepSource](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc.svg/?label=active+issues&token=o00wTEndphJPK3wZIrU6C0OZ)](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc/?ref=repository-badge)
+[![codecov](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc/branch/main/graph/badge.svg?token=ACW4cNAmjT)](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 Gatsby Plugin Fix FOUC is a plugin that solves flash of unstyled content.
@@ -85,7 +85,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.ideapod.com/"><img src="https://avatars.githubusercontent.com/u/3660370?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ideapod</b></sub></a><br /><a href="https://github.com/bicstone/gatsby-plugin-fix-fouc/commits?author=ideas" title="Code">💻</a></td>
     <td align="center"><a href="https://bicstone.me/"><img src="https://avatars.githubusercontent.com/u/47806818?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oishi Takanori</b></sub></a><br /><a href="#ideas-bicstone" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/bicstone/gatsby-plugin-fix-fouc/commits?author=bicstone" title="Code">💻</a> <a href="#maintenance-bicstone" title="Maintenance">🚧</a> <a href="#question-bicstone" title="Answering Questions">💬</a> <a href="https://github.com/bicstone/gatsby-plugin-fix-fouc/commits?author=bicstone" title="Documentation">📖</a> <a href="https://github.com/bicstone/gatsby-plugin-fix-fouc/pulls?q=is%3Apr+reviewed-by%3Abicstone" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
