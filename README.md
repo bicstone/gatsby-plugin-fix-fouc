@@ -1,14 +1,11 @@
 # Gatsby Plugin Fix FOUC
 
 [![CI](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/ci.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/ci.yml)
-[![coverage](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/coverage.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/coverage.yml)
-[![njsscan sarif](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/njsscan-analysis.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/njsscan-analysis.yml)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbicstone%2Fgatsby-plugin-fix-fouc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbicstone%2Fgatsby-plugin-fix-fouc?ref=badge_shield)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bicstone_gatsby-plugin-fix-fouc&metric=alert_status)](https://sonarcloud.io/dashboard?id=bicstone_gatsby-plugin-fix-fouc)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/bicstone/gatsby-plugin-fix-fouc.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/bicstone/gatsby-plugin-fix-fouc/alerts/)
 [![DeepSource](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc.svg/?label=active+issues&token=o00wTEndphJPK3wZIrU6C0OZ)](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc/?ref=repository-badge)
 [![codecov](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc/branch/main/graph/badge.svg?token=ACW4cNAmjT)](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 Gatsby Plugin Fix FOUC is a plugin that solves flash of unstyled content.
 
