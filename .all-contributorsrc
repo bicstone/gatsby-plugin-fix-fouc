@@ -1,0 +1,29 @@
+{
+  "projectName": "gatsby-plugin-fix-fouc",
+  "projectOwner": "bicstone",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "eslint",
+  "contributors": [
+    {
+      "login": "bicstone",
+      "name": "Oishi Takanori",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47806818?v=4",
+      "profile": "https://bicstone.me/",
+      "contributions": [
+        "ideas",
+        "code",
+        "maintenance",
+        "question",
+        "doc",
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

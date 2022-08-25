@@ -1,0 +1,23 @@
+name: Publish (latest)
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  publish:
+    if: "!github.event.release.prerelease"
+    runs-on: ubuntu-latest
+    environment: npm
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: ".nvmrc"
+          registry-url: "https://registry.npmjs.org"
+          cache: "yarn"
+      - run: yarn install
+      - run: npm publish --tag=latest
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

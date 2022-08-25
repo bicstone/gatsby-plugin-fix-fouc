@@ -1,0 +1,74 @@
+{
+  "name": "gatsby-plugin-fix-fouc",
+  "version": "0.1.0",
+  "description": "Gatsby Plugin Fix FOUC is a plugin that solves flicker of unstyled content",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "yarn build:plugin && yarn build:emit",
+    "build:plugin": "babel src --out-dir . --extensions .ts,.tsx",
+    "build:emit": "tsc -p tsconfig.emitDeclarations.json",
+    "lint": "eslint --cache --ignore-path .eslintignore --max-warnings=0 .",
+    "lint:fix": "yarn lint --fix",
+    "format": "prettier --cache --ignore-path .eslintignore --write .",
+    "typecheck": "tsc -p . --noEmit",
+    "test": "jest --passWithNoTests",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bicstone/gatsby-plugin-fix-fouc.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "react",
+    "fouc",
+    "ssr",
+    "ssg",
+    "javascript",
+    "hacktoberfest"
+  ],
+  "author": "Oishi Takanori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bicstone/gatsby-plugin-fix-fouc/issues"
+  },
+  "homepage": "https://github.com/bicstone/gatsby-plugin-fix-fouc#readme",
+  "packageManager": "yarn@3.2.2",
+  "volta": {
+    "node": "16.17.0",
+    "yarn": "1.22.19"
+  },
+  "peerDependencies": {
+    "gatsby": "^3 || ^4"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.18.10",
+    "@babel/core": "7.18.10",
+    "@types/jest": "28.1.8",
+    "@types/node": "18.7.13",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "5.34.0",
+    "@typescript-eslint/parser": "5.34.0",
+    "all-contributors-cli": "6.20.0",
+    "babel-preset-gatsby-package": "2.21.0",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-config-standard-with-typescript": "22.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.2.5",
+    "eslint-plugin-promise": "6.0.0",
+    "gatsby": "4.21.1",
+    "husky": "8.0.1",
+    "jest": "28.1.3",
+    "prettier": "2.7.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ts-jest": "28.0.8",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4"
+  }
+}
