@@ -25,11 +25,11 @@ You can specify the width that does not hide the screen by setting `minWidth`.
 ## Install
 
 ```bash
-yarn add @gatsby-plugin-fix-fouc
+yarn add gatsby-plugin-fix-fouc
 
 # or
 
-npm install @gatsby-plugin-fix-fouc
+npm install gatsby-plugin-fix-fouc
 ```
 
 ## Usage
