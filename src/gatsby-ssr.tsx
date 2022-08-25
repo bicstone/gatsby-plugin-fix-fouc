@@ -1,7 +1,9 @@
 import React from "react";
 
-import { RenderBodyArgs } from "gatsby";
+import camelCase from "camelcase";
 import { defaultOptions, GatsbyPluginFixFoucOptions } from "./";
+
+import type { RenderBodyArgs } from "gatsby";
 
 const generateHtml = (
   str: string
@@ -41,7 +43,7 @@ export const onRenderBody = (
       key="loading-screen-fail-safe"
       dangerouslySetInnerHTML={generateHtml(`
         setTimeout(function(){
-          delete document.body.dataset?.[${attributeName}]
+          delete document.body.dataset?.["${camelCase(attributeName)}"]
         },${timeout})
       `)}
     />,

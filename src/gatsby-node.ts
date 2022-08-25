@@ -1,5 +1,5 @@
 import type { GatsbyNode } from "gatsby";
-import { GatsbyPluginFixFoucOptions } from "./";
+import type { GatsbyPluginFixFoucOptions } from "./";
 
 export const pluginOptionsSchema: GatsbyNode["pluginOptionsSchema"] = ({
   Joi,

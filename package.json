@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-fix-fouc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gatsby Plugin Fix FOUC is a plugin that solves flicker of unstyled content",
   "main": "index.js",
   "types": "index.d.ts",
@@ -50,6 +50,9 @@
   },
   "peerDependencies": {
     "gatsby": "^3 || ^4"
+  },
+  "dependencies": {
+    "camelcase": "7.0.0"
   },
   "devDependencies": {
     "@babel/cli": "7.18.10",

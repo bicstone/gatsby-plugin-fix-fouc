@@ -1,5 +1,7 @@
-import type { BrowserPluginArgs } from "gatsby";
+import camelCase from "camelcase";
 import { defaultOptions, GatsbyPluginFixFoucOptions } from "./";
+
+import type { BrowserPluginArgs } from "gatsby";
 
 export const onInitialClientRender = (
   _: BrowserPluginArgs,
@@ -8,5 +10,5 @@ export const onInitialClientRender = (
   const attributeName =
     pluginOptions.attributeName ?? defaultOptions.attributeName;
 
-  delete window.document.body.dataset?.[attributeName];
+  delete window.document.body.dataset?.[camelCase(attributeName)];
 };
