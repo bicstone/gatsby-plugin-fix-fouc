@@ -12,7 +12,7 @@
     "lint:fix": "yarn lint --fix",
     "format": "prettier --cache --ignore-path .eslintignore --write .",
     "typecheck": "tsc -p . --noEmit",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "prepare": "husky install"
   },
   "repository": {
