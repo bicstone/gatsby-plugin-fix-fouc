@@ -12,6 +12,8 @@
 
 Gatsby Plugin Fix FOUC is a plugin that solves flash of unstyled content.
 
+⚠ Not adequately tested. Please use this plugin at your own risk. We welcome your feedback.
+
 ## How Does It Work
 
 Adds a data attribute to the `<body>` element that hides the page until the initial render of Gatsby App is done on the client, so that the awful flicker is not shown to you.  
@@ -50,7 +52,7 @@ module.exports = {
 import { breakpoints } from "./src/themes";
 
 import type { GatsbyConfig } from "gatsby";
-import type { GatsbyPluginFixFoucOptions } from "gatsby-plugin-fix-fouc";
+import type { GatsbyPluginFixFoucRefOptions } from "gatsby-plugin-fix-fouc";
 
 const config: GatsbyConfig = {
   plugins: [
@@ -60,7 +62,7 @@ const config: GatsbyConfig = {
         attributeName: "is-loading",
         minWidth: breakpoints.values.sm,
         timeout: 3000,
-      } as GatsbyPluginFixFoucOptions,
+      } as GatsbyPluginFixFoucRefOptions,
     },
   ],
 };
