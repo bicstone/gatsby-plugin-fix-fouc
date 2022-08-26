@@ -1,5 +1,5 @@
 {
-  "extends": ["standard", "prettier"],
+  "extends": ["standard", "plugin:import/recommended", "prettier"],
   "parserOptions": {
     "ecmaVersion": "latest",
     "project": "./tsconfig.json"
@@ -7,7 +7,12 @@
   "overrides": [
     {
       "files": ["*.ts", "*.tsx"],
-      "extends": ["standard-with-typescript", "prettier"]
+      "extends": [
+        "standard-with-typescript",
+        "plugin:import/recommended",
+        "plugin:import/typescript",
+        "prettier"
+      ]
     }
   ]
 }

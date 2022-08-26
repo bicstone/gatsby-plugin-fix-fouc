@@ -1,5 +1,15 @@
+import type { IPluginRefOptions } from "gatsby";
+
 /**
  * @public
+ * Gatsby Plugin Fix FOUC Ref Options
+ */
+export interface GatsbyPluginFixFoucRefOptions
+  extends GatsbyPluginFixFoucOptions,
+    IPluginRefOptions {}
+
+/**
+ * @private
  * Gatsby Plugin Fix FOUC Options
  */
 export interface GatsbyPluginFixFoucOptions {
