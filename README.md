@@ -14,6 +14,16 @@ Gatsby Plugin Fix FOUC is a plugin that solves flash of unstyled content.
 
 ⚠ Not adequately tested. Please use this plugin at your own risk. We welcome your feedback.
 
+<details>
+
+<summary>Screen records when plugin is used (note, used gif animation images)</summary>
+
+| Without Plugin                                                                                                  | With Plugin                                                                                                        |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| ![Screen records that flicker is occurring during react hydrate.](/docs/readme-images/without-plugin-movie.gif) | ![Screen records that no flickering occurs because the page is hidden.](/docs/readme-images/with-plugin-movie.gif) |
+
+</details>
+
 ## How Does It Work
 
 Adds a data attribute to the `<body>` element that hides the page until the initial render of Gatsby App is done on the client, so that the awful flicker is not shown to you.  
