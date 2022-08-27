@@ -8,7 +8,7 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bicstone_gatsby-plugin-fix-fouc&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=bicstone_gatsby-plugin-fix-fouc)
 [![DeepSource](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc.svg/?label=active+issues&token=o00wTEndphJPK3wZIrU6C0OZ)](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc/?ref=repository-badge)
 [![codecov](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc/branch/main/graph/badge.svg?token=ACW4cNAmjT)](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc)
-[![npm](https://img.shields.io/npm/dm/@bicstone/gatsby-plugin-fix-fouc.svg?&logo=npm)](https://www.npmjs.com/package/@bicstone/gatsby-plugin-fix-fouc)
+[![npm](https://img.shields.io/npm/dm/gatsby-plugin-fix-fouc.svg?&logo=npm)](https://www.npmjs.com/package/gatsby-plugin-fix-fouc)
 
 Gatsby Plugin Fix FOUC is a plugin that solves flash of unstyled content.
 
