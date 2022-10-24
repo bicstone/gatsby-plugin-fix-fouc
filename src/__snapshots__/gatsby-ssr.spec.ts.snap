@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`onRenderBody TODO set head components (use attributeName option) 1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      {
+        "data-is-loading": "true",
+      },
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`onRenderBody TODO set head components 1`] = `
+[MockFunction] {
+  "calls": [
+    [
+      [
+        <style
+          dangerouslySetInnerHTML={
+            {
+              "__html": "body[data-gatsby-plugin-fix-fouc-is-loading]{opacity:1}
+        @media(min-width:0px){body[data-gatsby-plugin-fix-fouc-is-loading]{opacity:0}}",
+            }
+          }
+        />,
+        <noscript
+          dangerouslySetInnerHTML={
+            {
+              "__html": "<style>
+        body[data-gatsby-plugin-fix-fouc-is-loading]{opacity:1!important}
+      </style>",
+            }
+          }
+        />,
+        <script
+          dangerouslySetInnerHTML={
+            {
+              "__html": "setTimeout(function(){
+          delete document.body.dataset?.["gatsbyPluginFixFoucIsLoading"]
+        },2000)",
+            }
+          }
+        />,
+      ],
+    ],
+  ],
+  "results": [
+    {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
