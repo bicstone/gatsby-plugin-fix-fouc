@@ -46,7 +46,7 @@ describe(`onInitialClientRender`, () => {
     ).toBeUndefined();
   });
 
-  test(`should not raise error if body does not exist`, () => {
+  test(`should not crashing if body dataset does not exist`, () => {
     const attributeName = defaultOptions.attributeName;
 
     delete window.document.body.dataset?.[camelCase(attributeName)];
