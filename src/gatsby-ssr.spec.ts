@@ -31,18 +31,17 @@ describe.each([
     options: {},
     attributeName: defaultOptions.attributeName,
     timeout: defaultOptions.timeout,
+    minWidth: defaultOptions.minWidth,
   },
   {
-    options: { attributeName: "is-loading", timeout: 9999 },
+    options: { attributeName: "is-loading", timeout: 9999, minWidth: 2000 },
     attributeName: "is-loading",
     timeout: 9999,
+    minWidth: 2000,
   },
 ])(`onRenderBody (%#)`, ({ options, attributeName, timeout }) => {
   beforeEach(() => {
     window.document.body.innerHTML = "";
-    Array.from(window.document.body.attributes).forEach((attr) =>
-      window.document.body.removeAttribute(attr.name)
-    );
   });
 
   describe(`setHeadComponents`, () => {
@@ -53,11 +52,11 @@ describe.each([
     });
 
     describe(`loading-screen-style`, () => {
-      test.todo(`loading-screen-style`);
+      // see e2e test
     });
 
     describe(`loading-screen-noscript-style`, () => {
-      test.todo(`loading-screen-noscript-style`);
+      // see e2e test
     });
 
     describe(`loading-screen-fail-safe`, () => {
