@@ -13,13 +13,15 @@
     "src"
   ],
   "scripts": {
+    "e2e": "cd e2e && yarn run",
+    "e2e:open": "cd e2e && yarn open",
     "build": "yarn build:plugin && yarn build:emit",
     "build:plugin": "babel src --out-dir . --extensions .ts,.tsx",
     "build:emit": "tsc -p tsconfig.emitDeclarations.json",
     "lint": "eslint --cache --ignore-path .eslintignore --max-warnings=0 .",
     "lint:fix": "yarn lint --fix",
     "format": "prettier --cache --ignore-path .eslintignore --write .",
-    "typecheck": "tsc -p . --noEmit",
+    "typecheck": "tsc -p . --noEmit && tsc -p ./e2e/tsconfig.json --noEmit",
     "test": "jest",
     "prepare": "husky install"
   },
@@ -81,5 +83,8 @@
     "ts-node": "10.9.1",
     "typescript": "4.8.4"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "workspaces": [
+    "e2e"
+  ]
 }

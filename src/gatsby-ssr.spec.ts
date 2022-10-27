@@ -1,7 +1,7 @@
-/* eslint-disable no-eval */
 /**
  * @jest-environment jsdom
  */
+/* eslint-disable no-eval */
 
 import { defaultOptions } from ".";
 import { onRenderBody } from "./gatsby-ssr";

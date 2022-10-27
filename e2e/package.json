@@ -1,0 +1,10 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "run": "cypress run",
+    "open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "10.11.0"
+  }
+}
