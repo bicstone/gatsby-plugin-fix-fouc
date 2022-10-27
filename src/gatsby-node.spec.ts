@@ -11,7 +11,7 @@ describe(`pluginOptionsSchema`, () => {
       timeout: 1,
     },
   ])(
-    `should validate the schema when valid options (%s) is provided`,
+    `should validate the schema when valid options is provided (%#)`,
     async () => {
       const { isValid, errors, warnings } = await testPluginOptionsSchema(
         pluginOptionsSchema,
