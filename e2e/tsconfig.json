@@ -3,6 +3,6 @@
   "compilerOptions": {
     "types": ["cypress"]
   },
-  "include": ["src"],
+  "include": ["*.ts", "cypress/**/*.ts", "src/**/*.ts"],
   "exclude": ["node_modules"]
 }

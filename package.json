@@ -13,8 +13,8 @@
     "src"
   ],
   "scripts": {
-    "e2e": "cd e2e && yarn run",
-    "e2e:open": "cd e2e && yarn open",
+    "e2e": "yarn build && cd e2e && yarn run",
+    "e2e:open": "yarn build && cd e2e && yarn open",
     "build": "yarn build:plugin && yarn build:emit",
     "build:plugin": "babel src --out-dir . --extensions .ts,.tsx",
     "build:emit": "tsc -p tsconfig.emitDeclarations.json",
@@ -23,7 +23,7 @@
     "format": "prettier --cache --ignore-path .eslintignore --write .",
     "typecheck": "tsc -p . --noEmit && tsc -p ./e2e/tsconfig.json --noEmit",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install && yarn build"
   },
   "repository": {
     "type": "git",
