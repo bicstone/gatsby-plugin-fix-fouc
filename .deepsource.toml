@@ -1,5 +1,9 @@
 version = 1
 
+test_patterns = ["**/*.spec.ts"]
+
+exclude_patterns = ["e2e/**"]
+
 [[analyzers]]
 name = "shell"
 enabled = true
