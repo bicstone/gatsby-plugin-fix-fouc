@@ -1,4 +1,4 @@
 {
   "presets": [["babel-preset-gatsby-package"]],
-  "ignore": ["**/*.spec.ts", "**/*.spec.tsx"]
+  "ignore": ["**/*.spec.ts"]
 }
