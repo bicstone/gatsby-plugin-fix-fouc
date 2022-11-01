@@ -1,7 +1,7 @@
 import React from "react";
 
-const IndexPage = () => {
+const NotFoundPage = () => {
   return <main>Content</main>;
 };
 
-export default IndexPage;
+export default NotFoundPage;

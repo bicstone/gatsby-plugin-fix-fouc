@@ -9,13 +9,13 @@
     "*.md",
     "gatsby-*.js",
     "index.js",
-    "index.d.ts",
-    "src"
+    "index.d.ts"
   ],
   "scripts": {
-    "e2e": "yarn build && cd e2e && yarn run",
-    "e2e:open": "yarn build && cd e2e && yarn open",
+    "e2e": "yarn build:e2e && cd e2e && yarn e2e:run",
+    "e2e:open": "yarn build:e2e && cd e2e && yarn e2e:open",
     "build": "yarn build:plugin && yarn build:emit",
+    "build:e2e": "babel src/gatsby-ssr.tsx src/index.ts --out-dir e2e/plugins/gatsby-plugin-fix-fouc --extensions .ts,.tsx",
     "build:plugin": "babel src --out-dir . --extensions .ts,.tsx",
     "build:emit": "tsc -p tsconfig.emitDeclarations.json",
     "lint": "eslint --cache --ignore-path .eslintignore --max-warnings=0 .",

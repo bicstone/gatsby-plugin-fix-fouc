@@ -201,6 +201,6 @@ Temporary Items
 *.vsix
 
 # output
-/*.js
-/*.d.ts
+*.js
+*.d.ts
 
