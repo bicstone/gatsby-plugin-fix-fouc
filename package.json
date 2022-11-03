@@ -50,7 +50,7 @@
     "gatsby": "^3 || ^4"
   },
   "dependencies": {
-    "camel-case": "4.1.2"
+    "camel-case": "^4"
   },
   "devDependencies": {
     "@babel/cli": "7.19.3",
