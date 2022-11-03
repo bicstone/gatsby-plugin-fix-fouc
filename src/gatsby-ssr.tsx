@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 
 import { camelCase } from "camel-case";
 import { defaultOptions, GatsbyPluginFixFoucOptions } from "./";
@@ -38,9 +38,11 @@ export const onRenderBody = (
       key="loading-screen-fail-safe"
       dangerouslySetInnerHTML={{
         __html:
-          `setTimeout(function(){` +
+          `(function(){` +
+          `setTimeout(function(){try{` +
           `delete document.body.dataset?.["${camelCase(attributeName)}"]` +
-          `},${timeout})`,
+          `}catch(e){}},${timeout})` +
+          `})();`,
       }}
     />,
   ]);

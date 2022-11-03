@@ -1,6 +1,6 @@
 # Gatsby Plugin Fix FOUC
 
-[![Build](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/ci.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/ci.yml)
+[![Test](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/test.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/test.yml)
 [![Linter](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/linter.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/linter.yml)
 [![Publish (latest)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-latest.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-latest.yml)
 [![Publish (next)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-next.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-next.yml)
