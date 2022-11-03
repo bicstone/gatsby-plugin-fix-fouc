@@ -1,7 +1,7 @@
-import React from "react";
+import * as React from "react";
 
 import { camelCase } from "camel-case";
-import { defaultOptions, GatsbyPluginFixFoucOptions } from "./";
+import { defaultOptions, GatsbyPluginFixFoucOptions } from ".";
 
 import type { RenderBodyArgs } from "gatsby";
 
@@ -15,34 +15,42 @@ export const onRenderBody = (
   const timeout = pluginOptions.timeout ?? defaultOptions.timeout;
 
   setHeadComponents([
-    <style
-      key="loading-screen-style"
-      dangerouslySetInnerHTML={{
+    React.createElement("style", {
+      key: "loading-screen-style",
+      dangerouslySetInnerHTML: {
         __html:
           `body[data-${attributeName}]{opacity:1}` +
           `@media(min-width:${minWidth}px){body[data-${attributeName}]{opacity:0}}`,
-      }}
-    />,
+      },
+    }),
 
-    <noscript
-      key="loading-screen-noscript-style"
-      dangerouslySetInnerHTML={{
+    React.createElement("noscript", {
+      key: "loading-screen-noscript-style",
+      dangerouslySetInnerHTML: {
         __html:
           `<style>` +
           `body[data-${attributeName}]{opacity:1!important}` +
           `</style>`,
-      }}
-    />,
+      },
+    }),
 
-    <script
-      key="loading-screen-fail-safe"
-      dangerouslySetInnerHTML={{
+    React.createElement("script", {
+      key: "loading-screen-fail-safe",
+      dangerouslySetInnerHTML: {
         __html:
+          `(function(){` +
           `setTimeout(function(){` +
-          `delete document.body.dataset?.["${camelCase(attributeName)}"]` +
-          `},${timeout})`,
-      }}
-    />,
+          `try{` +
+          `if(` +
+          `document.body.dataset["${camelCase(attributeName)}"]!==undefined` +
+          `){` +
+          `delete document.body.dataset["${camelCase(attributeName)}"]` +
+          `}` +
+          `}catch(e){}` +
+          `},${timeout})` +
+          `})();`,
+      },
+    }),
   ]);
 
   setBodyAttributes({

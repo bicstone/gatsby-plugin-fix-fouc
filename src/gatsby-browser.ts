@@ -10,5 +10,7 @@ export const onInitialClientRender = (
   const attributeName =
     pluginOptions.attributeName ?? defaultOptions.attributeName;
 
-  delete window.document.body.dataset?.[camelCase(attributeName)];
+  try {
+    delete window.document.body.dataset?.[camelCase(attributeName)];
+  } catch (e) {}
 };
