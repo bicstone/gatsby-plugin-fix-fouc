@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import { camelCase } from "camel-case";
-import { defaultOptions, GatsbyPluginFixFoucOptions } from "./";
+import { defaultOptions, GatsbyPluginFixFoucOptions } from ".";
 
 import type { RenderBodyArgs } from "gatsby";
 
