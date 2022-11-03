@@ -5279,7 +5279,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camel-case@npm:4.1.2, camel-case@npm:^4.1.2":
+"camel-case@npm:^4, camel-case@npm:^4.1.2":
   version: 4.1.2
   resolution: "camel-case@npm:4.1.2"
   dependencies:
@@ -8558,7 +8558,7 @@ __metadata:
     "@typescript-eslint/parser": 5.41.0
     all-contributors-cli: 6.24.0
     babel-preset-gatsby-package: 2.24.0
-    camel-case: 4.1.2
+    camel-case: ^4
     eslint: 8.26.0
     eslint-config-prettier: 8.5.0
     eslint-config-standard: 17.0.0
