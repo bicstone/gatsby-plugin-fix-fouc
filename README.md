@@ -12,6 +12,8 @@
 
 Gatsby Plugin Fix FOUC is a plugin that solves flash of unstyled content.
 
+Supports Gatsby v5
+
 <details>
 
 <summary>Screen records when plugin is used (note, used gif animation images)</summary>

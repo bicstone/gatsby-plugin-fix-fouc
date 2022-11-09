@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-fix-fouc",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Gatsby Plugin Fix FOUC is a plugin that solves flicker of unstyled content",
   "main": "index.js",
   "types": "index.d.ts",
@@ -47,7 +47,7 @@
   "homepage": "https://github.com/bicstone/gatsby-plugin-fix-fouc#readme",
   "packageManager": "yarn@3.2.4",
   "peerDependencies": {
-    "gatsby": "^3 || ^4"
+    "gatsby": "^3 || ^4 || ^5"
   },
   "dependencies": {
     "camel-case": "^4"
@@ -63,7 +63,7 @@
     "@typescript-eslint/eslint-plugin": "5.42.0",
     "@typescript-eslint/parser": "5.42.0",
     "all-contributors-cli": "6.24.0",
-    "babel-preset-gatsby-package": "2.24.0",
+    "babel-preset-gatsby-package": "3.0.0",
     "eslint": "8.26.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-standard": "17.0.0",
@@ -71,8 +71,8 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-n": "15.4.0",
     "eslint-plugin-promise": "6.1.1",
-    "gatsby": "4.24.7",
-    "gatsby-plugin-utils": "3.18.0",
+    "gatsby": "5.0.0",
+    "gatsby-plugin-utils": "4.0.0",
     "husky": "8.0.1",
     "jest": "29.2.2",
     "jest-environment-jsdom": "29.2.2",
