@@ -1,6 +1,6 @@
 # Gatsby Plugin Fix FOUC
 
-Gatsby Plugin Fix FOUC は、生成された CSS が読み込まれてから Gatsby のレンダリングが行われるまでの間にスタイルが変化してちらつく問題 (FOUC - flash of unstyled content) を解決するプラグインです。
+Gatsby Plugin Fix FOUC は、ページ読み込み時にスタイルが変化してちらつく問題 (FOUC - flash of unstyled content) を解決するプラグインです。
 
 Gatsby v3 - v5 をサポートしています。
 
@@ -74,11 +74,11 @@ export default config;
 
 ## 設定
 
-| Property        | Type   | Default                             | Description                                                                                                                |
-| --------------- | ------ | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| `attributeName` | string | `gatsby-plugin-fix-fouc-is-loading` | 追加される data-attribute 名                                                                                               |
-| `minWidth`      | number | `0`                                 | ページを非表示にする最小幅 (px)。設定しない場合は、幅に関係なく非表示になります。                                          |
-| `timeout`       | number | `4000`                              | 最初のレンダリングが完了しなかった場合でも、フォールバックとしてページを表示するまでのタイマー時間（ミリ秒）を指定します。 |
+| Property        | Type   | Default                             | Description                                                                                               |
+| --------------- | ------ | ----------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `attributeName` | string | `gatsby-plugin-fix-fouc-is-loading` | 追加する data-attribute 名                                                                                |
+| `minWidth`      | number | `0`                                 | ページを非表示にする最小幅 (px)。設定しない場合は、幅に関係なく非表示になります                           |
+| `timeout`       | number | `4000`                              | Gatsby レンダリングが完了しなかった場合でも、フォールバックとして表示するまでの時間（ミリ秒）を指定します |
 
 ## ライセンス
 
