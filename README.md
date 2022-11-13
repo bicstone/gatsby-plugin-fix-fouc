@@ -1,14 +1,14 @@
 # Gatsby Plugin Fix FOUC
 
-[![Test](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/test.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/test.yml)
-[![Linter](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/linter.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/linter.yml)
-[![Publish (latest)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-latest.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-latest.yml)
-[![Publish (next)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-next.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-next.yml)
+[![Test CI status](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/test.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/test.yml)
+[![Linter CI status](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/linter.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/linter.yml)
+[![Publish CD status](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-latest.yml/badge.svg)](https://github.com/bicstone/gatsby-plugin-fix-fouc/actions/workflows/publish-latest.yml)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbicstone%2Fgatsby-plugin-fix-fouc.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbicstone%2Fgatsby-plugin-fix-fouc?ref=badge_shield)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bicstone_gatsby-plugin-fix-fouc&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=bicstone_gatsby-plugin-fix-fouc)
-[![DeepSource](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc.svg/?label=active+issues&token=o00wTEndphJPK3wZIrU6C0OZ)](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc/?ref=repository-badge)
-[![codecov](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc/branch/main/graph/badge.svg?token=ACW4cNAmjT)](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc)
-[![npm](https://img.shields.io/npm/dm/gatsby-plugin-fix-fouc.svg?&logo=npm)](https://www.npmjs.com/package/gatsby-plugin-fix-fouc)
+[![DeepSource status](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc.svg/?label=active+issues&token=o00wTEndphJPK3wZIrU6C0OZ)](https://deepsource.io/gh/bicstone/gatsby-plugin-fix-fouc/?ref=repository-badge)
+[![codecov status](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc/branch/main/graph/badge.svg?token=ACW4cNAmjT)](https://codecov.io/gh/bicstone/gatsby-plugin-fix-fouc)
+[![npm downloads](https://img.shields.io/npm/dm/gatsby-plugin-fix-fouc.svg?&logo=npm)](https://www.npmjs.com/package/gatsby-plugin-fix-fouc)
+![npm bundle size](https://img.shields.io/bundlephobia/min/gatsby-plugin-fix-fouc)
 
 Gatsby Plugin Fix FOUC is a plugin that solves flash of unstyled content.
 
