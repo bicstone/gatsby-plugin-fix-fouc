@@ -12,7 +12,9 @@
 
 Gatsby Plugin Fix FOUC is a plugin that solves flash of unstyled content.
 
-Supports Gatsby v5
+Supports Gatsby v3 - v5
+
+[日本語による説明はこちら](./README.ja.md)
 
 <details>
 
@@ -86,7 +88,7 @@ export default config;
 | --------------- | ------ | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | `attributeName` | string | `gatsby-plugin-fix-fouc-is-loading` | The data-\* attribute name to be added.                                                                                      |
 | `minWidth`      | number | `0`                                 | The minimum width (px) of hides the page. If not set, hides regardless of width.                                             |
-| `timeout`       | number | `2000`                              | The time (milliseconds) of the timer should wait before shows the page as a fallback even if the initial render is not done. |
+| `timeout`       | number | `4000`                              | The time (milliseconds) of the timer should wait before shows the page as a fallback even if the initial render is not done. |
 
 ## Contributors
 

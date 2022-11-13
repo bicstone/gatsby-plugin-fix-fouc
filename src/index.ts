@@ -27,7 +27,7 @@ export interface GatsbyPluginFixFoucOptions {
 
   /**
    * The time (milliseconds) of the timer should wait before shows the page as a fallback even if the initial render is not done.
-   * @default 2000
+   * @default 4000
    */
   timeout?: number;
 }
@@ -35,5 +35,5 @@ export interface GatsbyPluginFixFoucOptions {
 export const defaultOptions: Required<GatsbyPluginFixFoucOptions> = {
   attributeName: "gatsby-plugin-fix-fouc-is-loading",
   minWidth: 0,
-  timeout: 2000,
+  timeout: 4000,
 };
