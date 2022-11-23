@@ -18,7 +18,7 @@ Supports Gatsby v3 - v5
 
 <summary>Screen records when plugin is used (note, used gif animation images)</summary>
 
-| Without Plugin                                                                                                  | With Plugin                                                                                                        |
+| Without Plugin                                                                                                   | With Plugin                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | ![Screen records that flicker is occurring during react hydrate.](./docs/readme-images/without-plugin-movie.gif) | ![Screen records that no flickering occurs because the page is hidden.](./docs/readme-images/with-plugin-movie.gif) |
 
