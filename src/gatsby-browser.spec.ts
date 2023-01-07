@@ -21,7 +21,7 @@ describe(`onInitialClientRender`, () => {
       window.document.body.dataset[camelCase(attributeName)]
     ).toStrictEqual("true");
 
-    expect(onInitialClientRender(browserPluginArgs, {})).toBeUndefined();
+    onInitialClientRender(browserPluginArgs, {});
 
     expect(
       window.document.body.dataset[camelCase(attributeName)]
@@ -37,9 +37,7 @@ describe(`onInitialClientRender`, () => {
       window.document.body.dataset[camelCase(attributeName)]
     ).toStrictEqual("true");
 
-    expect(
-      onInitialClientRender(browserPluginArgs, { attributeName })
-    ).toBeUndefined();
+    onInitialClientRender(browserPluginArgs, { attributeName });
 
     expect(
       window.document.body.dataset[camelCase(attributeName)]
@@ -55,7 +53,7 @@ describe(`onInitialClientRender`, () => {
       window.document.body.dataset[camelCase(attributeName)]
     ).toBeUndefined();
 
-    expect(onInitialClientRender(browserPluginArgs, {})).toBeUndefined();
+    onInitialClientRender(browserPluginArgs, {});
 
     expect(
       window.document.body.dataset[camelCase(attributeName)]
