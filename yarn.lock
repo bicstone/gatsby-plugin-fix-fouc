@@ -7605,9 +7605,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-standard-with-typescript@npm:27.0.1":
-  version: 27.0.1
-  resolution: "eslint-config-standard-with-typescript@npm:27.0.1"
+"eslint-config-standard-with-typescript@npm:31.0.0":
+  version: 31.0.0
+  resolution: "eslint-config-standard-with-typescript@npm:31.0.0"
   dependencies:
     "@typescript-eslint/parser": ^5.0.0
     eslint-config-standard: 17.0.0
@@ -7618,7 +7618,7 @@ __metadata:
     eslint-plugin-n: ^15.0.0
     eslint-plugin-promise: ^6.0.0
     typescript: "*"
-  checksum: c62340eeac7c92db0e728d1c672c64fb20ef07d69305804709b0d7b0b81cd56762f2899a04fadb3ba3336bcdd8f2b5c8d3cb3820df1c4c42cb6aad116f045858
+  checksum: 2f2c2b02b5e4af6c06e7f11ad81321a90ba362a9b3c546a22933ee56cabb222c72990b4f31e23bc6fd215c43a334d707eeb07a10c7fd297bbd8d1c978b8dc14a
   languageName: node
   linkType: hard
 
@@ -8966,7 +8966,7 @@ __metadata:
     eslint: 8.31.0
     eslint-config-prettier: 8.6.0
     eslint-config-standard: 17.0.0
-    eslint-config-standard-with-typescript: 27.0.1
+    eslint-config-standard-with-typescript: 31.0.0
     eslint-plugin-import: 2.27.4
     eslint-plugin-n: 15.6.1
     eslint-plugin-promise: 6.1.1
