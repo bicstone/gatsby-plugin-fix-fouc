@@ -1,5 +1,6 @@
 import { camelCase } from "camel-case";
-import { defaultOptions, GatsbyPluginFixFoucOptions } from "./";
+import { defaultOptions } from "./";
+import type { GatsbyPluginFixFoucOptions } from "./";
 
 import type { BrowserPluginArgs } from "gatsby";
 

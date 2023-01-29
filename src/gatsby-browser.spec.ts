@@ -3,7 +3,7 @@
  */
 
 import { camelCase } from "camel-case";
-import { BrowserPluginArgs } from "gatsby";
+import type { BrowserPluginArgs } from "gatsby";
 import { defaultOptions } from ".";
 import { onInitialClientRender } from "./gatsby-browser";
 

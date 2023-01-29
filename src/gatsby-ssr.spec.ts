@@ -6,7 +6,7 @@
 import { defaultOptions } from ".";
 import { onRenderBody } from "./gatsby-ssr";
 import { camelCase } from "camel-case";
-import { RenderBodyArgs } from "gatsby";
+import type { RenderBodyArgs } from "gatsby";
 import { render } from "@testing-library/react";
 import React from "react";
 
