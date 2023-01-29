@@ -8,8 +8,8 @@
     "e2e:open": "start-server-and-test gb:develop http://localhost:8000 cy:open"
   },
   "devDependencies": {
-    "cypress": "12.3.0",
-    "gatsby": "5.4.2",
-    "start-server-and-test": "1.15.2"
+    "cypress": "12.4.1",
+    "gatsby": "5.5.0",
+    "start-server-and-test": "1.15.3"
   }
 }
