@@ -1,14 +1,3 @@
 {
-  "extends": ["config:base"],
-  "packageRules": [
-    {
-      "groupName": "devDependencies",
-      "matchDepTypes": ["devDependencies"],
-      "matchPackagePatterns": ["*"]
-    }
-  ],
-  "assignees": ["bicstone"],
-  "reviewers": ["bicstone"],
-  "schedule": ["before 6am on Saturday"],
-  "timezone": "Asia/Tokyo"
+  "extends": ["github>bicstone/renovate-config"]
 }
