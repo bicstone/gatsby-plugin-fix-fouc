@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "cypress": "12.8.1",
-    "gatsby": "5.7.0",
+    "gatsby": "5.8.0",
     "start-server-and-test": "2.0.0"
   }
 }
