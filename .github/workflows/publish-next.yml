@@ -4,6 +4,9 @@ on:
   release:
     types: [created]
 
+permissions:
+  id-token: write
+
 jobs:
   publish:
     if: "github.event.release.prerelease"
@@ -19,6 +22,6 @@ jobs:
           cache: "yarn"
       - run: yarn install
       - run: yarn build
-      - run: npm publish --tag=next
+      - run: npm publish --provenance --tag=next
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
