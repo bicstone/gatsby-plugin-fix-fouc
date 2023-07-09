@@ -6,7 +6,7 @@ import type { BrowserPluginArgs } from "gatsby";
 
 export const onInitialClientRender = (
   _: BrowserPluginArgs,
-  pluginOptions: GatsbyPluginFixFoucOptions
+  pluginOptions: GatsbyPluginFixFoucOptions,
 ): void => {
   const attributeName =
     pluginOptions.attributeName ?? defaultOptions.attributeName;

@@ -18,13 +18,13 @@ describe(`onInitialClientRender`, () => {
     window.document.body.dataset[camelCase(attributeName)] = "true";
 
     expect(
-      window.document.body.dataset[camelCase(attributeName)]
+      window.document.body.dataset[camelCase(attributeName)],
     ).toStrictEqual("true");
 
     onInitialClientRender(browserPluginArgs, {});
 
     expect(
-      window.document.body.dataset[camelCase(attributeName)]
+      window.document.body.dataset[camelCase(attributeName)],
     ).toBeUndefined();
   });
 
@@ -34,13 +34,13 @@ describe(`onInitialClientRender`, () => {
     window.document.body.dataset[camelCase(attributeName)] = "true";
 
     expect(
-      window.document.body.dataset[camelCase(attributeName)]
+      window.document.body.dataset[camelCase(attributeName)],
     ).toStrictEqual("true");
 
     onInitialClientRender(browserPluginArgs, { attributeName });
 
     expect(
-      window.document.body.dataset[camelCase(attributeName)]
+      window.document.body.dataset[camelCase(attributeName)],
     ).toBeUndefined();
   });
 
@@ -50,13 +50,13 @@ describe(`onInitialClientRender`, () => {
     delete window.document.body.dataset?.[camelCase(attributeName)];
 
     expect(
-      window.document.body.dataset[camelCase(attributeName)]
+      window.document.body.dataset[camelCase(attributeName)],
     ).toBeUndefined();
 
     onInitialClientRender(browserPluginArgs, {});
 
     expect(
-      window.document.body.dataset[camelCase(attributeName)]
+      window.document.body.dataset[camelCase(attributeName)],
     ).toBeUndefined();
   });
 });

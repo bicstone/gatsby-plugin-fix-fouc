@@ -15,13 +15,13 @@ describe(`pluginOptionsSchema`, () => {
     async () => {
       const { isValid, errors, warnings } = await testPluginOptionsSchema(
         pluginOptionsSchema,
-        {}
+        {},
       );
 
       expect(isValid).toStrictEqual(true);
       expect(errors.length).toStrictEqual(0);
       expect(warnings.length).toStrictEqual(0);
-    }
+    },
   );
 
   test(`should provide meaningful errors when invalid options is provided`, async () => {
@@ -31,7 +31,7 @@ describe(`pluginOptionsSchema`, () => {
         attributeName: 1,
         minWidth: "a",
         timeout: "a",
-      }
+      },
     );
 
     expect(isValid).toStrictEqual(false);

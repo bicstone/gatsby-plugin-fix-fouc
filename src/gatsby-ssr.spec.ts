@@ -13,7 +13,7 @@ import React from "react";
 jest.useFakeTimers();
 
 const getRenderBodyArgs = (
-  renderBodyArgs?: Partial<RenderBodyArgs>
+  renderBodyArgs?: Partial<RenderBodyArgs>,
 ): RenderBodyArgs => ({
   loadPageDataSync: jest.fn(),
   pathname: "",
@@ -73,13 +73,13 @@ describe.each([
         }
 
         expect(
-          window.document.body.dataset[camelCase(attributeName)]
+          window.document.body.dataset[camelCase(attributeName)],
         ).toStrictEqual("true");
 
         jest.advanceTimersByTime(timeout);
 
         expect(
-          window.document.body.dataset[camelCase(attributeName)]
+          window.document.body.dataset[camelCase(attributeName)],
         ).toBeUndefined();
       });
     });
@@ -99,7 +99,7 @@ describe.each([
 
       expect(renderBodyArgs.setBodyAttributes).toHaveBeenCalledTimes(1);
       expect(
-        window.document.body.dataset[camelCase(attributeName)]
+        window.document.body.dataset[camelCase(attributeName)],
       ).toStrictEqual("true");
     });
   });
