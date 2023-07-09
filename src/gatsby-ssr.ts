@@ -8,7 +8,7 @@ import type { RenderBodyArgs } from "gatsby";
 
 export const onRenderBody = (
   { setHeadComponents, setBodyAttributes }: RenderBodyArgs,
-  pluginOptions: GatsbyPluginFixFoucOptions
+  pluginOptions: GatsbyPluginFixFoucOptions,
 ): void => {
   const attributeName =
     pluginOptions.attributeName ?? defaultOptions.attributeName;
