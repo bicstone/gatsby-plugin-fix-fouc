@@ -4159,10 +4159,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.19":
-  version: 18.16.19
-  resolution: "@types/node@npm:18.16.19"
-  checksum: 63c31f09616508aa7135380a4c79470a897b75f9ff3a70eb069e534dfabdec3f32fb0f9df5939127f1086614d980ddea0fa5e8cc29a49103c4f74cd687618aaf
+"@types/node@npm:18.17.0":
+  version: 18.17.0
+  resolution: "@types/node@npm:18.17.0"
+  checksum: 3a43c5c5541342751b514485144818a515fac5427f663066068eaacbe8a108cbe1207aae75ec89d34c3b32414c334aad84e9083cf7fcf3ebfd970adc871314a4
   languageName: node
   linkType: hard
 
@@ -7099,9 +7099,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:12.17.1":
-  version: 12.17.1
-  resolution: "cypress@npm:12.17.1"
+"cypress@npm:12.17.2":
+  version: 12.17.2
+  resolution: "cypress@npm:12.17.2"
   dependencies:
     "@cypress/request": ^2.88.11
     "@cypress/xvfb": ^1.2.4
@@ -7147,7 +7147,7 @@ __metadata:
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 1f042e3e5931498bdf826cba09060939349e677fca8654c9695760acbec5a424cb69d3445ace57cf80deb496d770ffe571ef791dff72af24e7f560ee43986ee4
+  checksum: 19144db1fe02d92270de71f69ece324affd2f60bafa2f7018440c00907f837b1f8556926206df8b6e7b1c9890d250435730656ccb4a5a31e7872b24dd79c0af8
   languageName: node
   linkType: hard
 
@@ -7637,7 +7637,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "e2e-6500a4@workspace:e2e"
   dependencies:
-    cypress: 12.17.1
+    cypress: 12.17.2
     gatsby: 5.11.0
     start-server-and-test: 2.0.0
   languageName: unknown
@@ -8070,9 +8070,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-standard-with-typescript@npm:36.1.0":
-  version: 36.1.0
-  resolution: "eslint-config-standard-with-typescript@npm:36.1.0"
+"eslint-config-standard-with-typescript@npm:36.1.1":
+  version: 36.1.1
+  resolution: "eslint-config-standard-with-typescript@npm:36.1.1"
   dependencies:
     "@typescript-eslint/parser": ^5.50.0
     eslint-config-standard: 17.1.0
@@ -8083,7 +8083,7 @@ __metadata:
     eslint-plugin-n: "^15.0.0 || ^16.0.0 "
     eslint-plugin-promise: ^6.0.0
     typescript: "*"
-  checksum: 07c9dfbd6b76b18b1ebc32e06602c543d85ae6f18489ab29823f1642c0e15987ce037d74574b27fd1c6603fcddf7f90092977fe8ad08815d83e077e8a704da6f
+  checksum: 6149e22a0a8a77a7c1ef8c4b0c3c8e67bd70e8ad44ab3dedf7901de56a0e7922fbb7bf3d4e2f93a13dbd1ccac117ac3159629f47f07e9df3497d6fc6f3529990
   languageName: node
   linkType: hard
 
@@ -9401,7 +9401,7 @@ __metadata:
     "@babel/core": 7.22.9
     "@testing-library/react": 14.0.0
     "@types/jest": 29.5.3
-    "@types/node": 18.16.19
+    "@types/node": 18.17.0
     "@types/react": 18.2.15
     "@types/react-dom": 18.2.7
     "@typescript-eslint/eslint-plugin": 5.62.0
@@ -9412,7 +9412,7 @@ __metadata:
     eslint: 8.45.0
     eslint-config-prettier: 8.8.0
     eslint-config-standard: 17.1.0
-    eslint-config-standard-with-typescript: 36.1.0
+    eslint-config-standard-with-typescript: 36.1.1
     eslint-plugin-import: 2.27.5
     eslint-plugin-n: 16.0.1
     eslint-plugin-promise: 6.1.1
