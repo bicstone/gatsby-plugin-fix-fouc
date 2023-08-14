@@ -13,6 +13,6 @@
     "start-server-and-test": "2.0.0"
   },
   "volta": {
-    "node": "18.17.0"
+    "node": "18.17.1"
   }
 }
