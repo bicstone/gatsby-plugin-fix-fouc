@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-fix-fouc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Gatsby Plugin Fix FOUC is a plugin that solves flicker of unstyled content",
   "main": "index.js",
   "types": "index.d.ts",
@@ -88,6 +88,7 @@
     "e2e"
   ],
   "volta": {
-    "node": "20.9.0"
+    "node": "20.9.0",
+    "yarn": "4.0.1"
   }
 }
