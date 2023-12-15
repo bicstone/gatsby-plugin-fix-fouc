@@ -89,6 +89,7 @@ describe.each([
     const renderBodyArgs = getRenderBodyArgs({
       setBodyAttributes: jest.fn((attributes) => {
         Object.entries(attributes).forEach(([k, v]) => {
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
           window.document.body.setAttribute(k, v);
         });
       }),
