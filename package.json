@@ -23,7 +23,8 @@
     "format": "prettier --cache --ignore-path .eslintignore --write .",
     "typecheck": "tsc -p . --noEmit && tsc -p ./e2e/tsconfig.json --noEmit",
     "test": "jest",
-    "prepare": "husky install && yarn build"
+    "preinstall": "npx only-allow yarn",
+    "prepare": "husky && yarn build"
   },
   "repository": {
     "type": "git",
