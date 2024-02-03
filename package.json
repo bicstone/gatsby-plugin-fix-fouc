@@ -23,7 +23,8 @@
     "format": "prettier --cache --ignore-path .eslintignore --write .",
     "typecheck": "tsc -p . --noEmit && tsc -p ./e2e/tsconfig.json --noEmit",
     "test": "jest",
-    "prepare": "husky install && yarn build"
+    "preinstall": "npx only-allow yarn",
+    "prepare": "husky && yarn build"
   },
   "repository": {
     "type": "git",
@@ -73,7 +74,7 @@
     "eslint-plugin-promise": "6.1.1",
     "gatsby": "5.13.3",
     "gatsby-plugin-utils": "4.13.1",
-    "husky": "8.0.3",
+    "husky": "9.0.10",
     "jest": "29.7.0",
     "jest-environment-jsdom": "29.7.0",
     "prettier": "3.2.4",
