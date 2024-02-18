@@ -3918,12 +3918,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.17":
-  version: 20.11.17
-  resolution: "@types/node@npm:20.11.17"
+"@types/node@npm:20.11.19":
+  version: 20.11.19
+  resolution: "@types/node@npm:20.11.19"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/1f30dae80b416cbf38f133a619ffb0e9fb9e7bc58f82d900bf73816ae5781740c4640892bf5971dd9c12570d5d05241646be3e7540bb4e059322ec6af4e51e15
+  checksum: 10c0/f451ef0a1d78f29c57bad7b77e49ebec945f2a6d0d7a89851d7e185ee9fe7ad94d651c0dfbcb7858c9fa791310c8b40a881e2260f56bd3c1b7e7ae92723373ae
   languageName: node
   linkType: hard
 
@@ -3986,14 +3986,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.55":
-  version: 18.2.55
-  resolution: "@types/react@npm:18.2.55"
+"@types/react@npm:18.2.56":
+  version: 18.2.56
+  resolution: "@types/react@npm:18.2.56"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/6b1c73beafbbc582dc54ffd92b3779f6d850e8f6b5ce5d04b31e9498a3d77bfc416bb08f0d8d63ab4f4649ccd6639996472416871c01c74a528b16a55faeaf38
+  checksum: 10c0/a6dab9569799538a9e01d340a721ef1a6f5532bd11cae8d8ab9af00dab2edcafaa00950f7bf2f9ae5bbb1839d890e9ac6eb1ea1186200894b7178dde7b503269
   languageName: node
   linkType: hard
 
@@ -9230,8 +9230,8 @@ __metadata:
     "@babel/core": "npm:7.23.9"
     "@testing-library/react": "npm:14.2.1"
     "@types/jest": "npm:29.5.12"
-    "@types/node": "npm:20.11.17"
-    "@types/react": "npm:18.2.55"
+    "@types/node": "npm:20.11.19"
+    "@types/react": "npm:18.2.56"
     "@types/react-dom": "npm:18.2.19"
     "@typescript-eslint/eslint-plugin": "npm:6.21.0"
     "@typescript-eslint/parser": "npm:6.21.0"
@@ -9247,7 +9247,7 @@ __metadata:
     eslint-plugin-promise: "npm:6.1.1"
     gatsby: "npm:5.13.3"
     gatsby-plugin-utils: "npm:4.13.1"
-    husky: "npm:9.0.10"
+    husky: "npm:9.0.11"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
     prettier: "npm:3.2.5"
@@ -10195,12 +10195,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:9.0.10":
-  version: 9.0.10
-  resolution: "husky@npm:9.0.10"
+"husky@npm:9.0.11":
+  version: 9.0.11
+  resolution: "husky@npm:9.0.11"
   bin:
     husky: bin.mjs
-  checksum: 10c0/585d95fec151d2e3fba1a8d97c1290dee40b83eb2b8850afae0805e183b3b3ec45bfeef97b2d0c4ae16f1c1bf19788b9129627d9ba02d924c874632207e33b93
+  checksum: 10c0/2c787dcf74a837fc9a4fea7da907509d4bd9a289f4ea10ecc9d86279e4d4542b0f5f6443a619bccae19e265f2677172cc2b86aae5c932a35a330cc227d914605
   languageName: node
   linkType: hard
 
