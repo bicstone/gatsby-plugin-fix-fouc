@@ -58,11 +58,11 @@
     "@babel/core": "7.24.0",
     "@testing-library/react": "14.2.1",
     "@types/jest": "29.5.12",
-    "@types/node": "20.11.24",
-    "@types/react": "18.2.61",
-    "@types/react-dom": "18.2.19",
-    "@typescript-eslint/eslint-plugin": "7.1.0",
-    "@typescript-eslint/parser": "7.1.0",
+    "@types/node": "20.11.25",
+    "@types/react": "18.2.64",
+    "@types/react-dom": "18.2.21",
+    "@typescript-eslint/eslint-plugin": "7.1.1",
+    "@typescript-eslint/parser": "7.1.1",
     "all-contributors-cli": "6.26.1",
     "babel-preset-gatsby-package": "3.13.1",
     "eslint": "8.57.0",
@@ -82,7 +82,7 @@
     "react-dom": "18.2.0",
     "ts-jest": "29.1.2",
     "ts-node": "10.9.2",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   },
   "sideEffects": false,
   "workspaces": [
