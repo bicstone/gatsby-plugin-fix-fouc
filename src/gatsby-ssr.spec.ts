@@ -5,7 +5,6 @@
 
 import { defaultOptions } from ".";
 import { onRenderBody } from "./gatsby-ssr";
-import { camelCase } from "camel-case";
 import type { RenderBodyArgs } from "gatsby";
 import { render } from "@testing-library/react";
 import React from "react";
@@ -29,17 +28,22 @@ const getRenderBodyArgs = (
 describe.each([
   {
     options: {},
-    attributeName: defaultOptions.attributeName,
+    // "gatsby-plugin-fix-fouc-is-loading"
+    datasetKeyName: "gatsbyPluginFixFoucIsLoading",
     timeout: defaultOptions.timeout,
     minWidth: defaultOptions.minWidth,
   },
   {
-    options: { attributeName: "is-loading", timeout: 9999, minWidth: 2000 },
-    attributeName: "is-loading",
+    options: {
+      attributeName: "is-loading",
+      timeout: 9999,
+      minWidth: 2000,
+    },
+    datasetKeyName: "isLoading",
     timeout: 9999,
     minWidth: 2000,
   },
-])(`onRenderBody (%#)`, ({ options, attributeName, timeout }) => {
+])(`onRenderBody (%#)`, ({ options, datasetKeyName, timeout }) => {
   beforeEach(() => {
     window.document.body.innerHTML = "";
   });
@@ -61,7 +65,7 @@ describe.each([
 
     describe(`loading-screen-fail-safe`, () => {
       test(`should remove data-attribute after timeout`, () => {
-        window.document.body.dataset[camelCase(attributeName)] = "true";
+        window.document.body.dataset[datasetKeyName] = "true";
 
         onRenderBody(renderBodyArgs, options);
 
@@ -72,15 +76,13 @@ describe.each([
           eval(script.textContent);
         }
 
-        expect(
-          window.document.body.dataset[camelCase(attributeName)],
-        ).toStrictEqual("true");
+        expect(window.document.body.dataset[datasetKeyName]).toStrictEqual(
+          "true",
+        );
 
         jest.advanceTimersByTime(timeout);
 
-        expect(
-          window.document.body.dataset[camelCase(attributeName)],
-        ).toBeUndefined();
+        expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
       });
     });
   });
@@ -99,9 +101,9 @@ describe.each([
       onRenderBody(renderBodyArgs, options);
 
       expect(renderBodyArgs.setBodyAttributes).toHaveBeenCalledTimes(1);
-      expect(
-        window.document.body.dataset[camelCase(attributeName)],
-      ).toStrictEqual("true");
+      expect(window.document.body.dataset[datasetKeyName]).toStrictEqual(
+        "true",
+      );
     });
   });
 });

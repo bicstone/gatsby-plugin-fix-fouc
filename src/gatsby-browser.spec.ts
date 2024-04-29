@@ -2,9 +2,7 @@
  * @jest-environment jsdom
  */
 
-import { camelCase } from "camel-case";
 import type { BrowserPluginArgs } from "gatsby";
-import { defaultOptions } from ".";
 import { onInitialClientRender } from "./gatsby-browser";
 
 const browserPluginArgs: BrowserPluginArgs = {
@@ -13,50 +11,41 @@ const browserPluginArgs: BrowserPluginArgs = {
 
 describe(`onInitialClientRender`, () => {
   test(`should remove data attribute`, () => {
-    const attributeName = defaultOptions.attributeName;
+    // "gatsby-plugin-fix-fouc-is-loading"
+    const datasetKeyName = "gatsbyPluginFixFoucIsLoading";
 
-    window.document.body.dataset[camelCase(attributeName)] = "true";
+    window.document.body.dataset[datasetKeyName] = "true";
 
-    expect(
-      window.document.body.dataset[camelCase(attributeName)],
-    ).toStrictEqual("true");
+    expect(window.document.body.dataset[datasetKeyName]).toStrictEqual("true");
 
     onInitialClientRender(browserPluginArgs, {});
 
-    expect(
-      window.document.body.dataset[camelCase(attributeName)],
-    ).toBeUndefined();
+    expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
   });
 
   test(`should remove data attribute (use attributeName Option)`, () => {
     const attributeName = "is-loading";
+    const datasetKeyName = "isLoading";
 
-    window.document.body.dataset[camelCase(attributeName)] = "true";
+    window.document.body.dataset[datasetKeyName] = "true";
 
-    expect(
-      window.document.body.dataset[camelCase(attributeName)],
-    ).toStrictEqual("true");
+    expect(window.document.body.dataset[datasetKeyName]).toStrictEqual("true");
 
     onInitialClientRender(browserPluginArgs, { attributeName });
 
-    expect(
-      window.document.body.dataset[camelCase(attributeName)],
-    ).toBeUndefined();
+    expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
   });
 
   test(`should not crashing if body dataset does not exist`, () => {
-    const attributeName = defaultOptions.attributeName;
+    // "gatsby-plugin-fix-fouc-is-loading"
+    const datasetKeyName = "gatsbyPluginFixFoucIsLoading";
 
-    delete window.document.body.dataset?.[camelCase(attributeName)];
+    delete window.document.body.dataset?.[datasetKeyName];
 
-    expect(
-      window.document.body.dataset[camelCase(attributeName)],
-    ).toBeUndefined();
+    expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
 
     onInitialClientRender(browserPluginArgs, {});
 
-    expect(
-      window.document.body.dataset[camelCase(attributeName)],
-    ).toBeUndefined();
+    expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
   });
 });
