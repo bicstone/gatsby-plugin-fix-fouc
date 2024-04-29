@@ -28,7 +28,8 @@ const getRenderBodyArgs = (
 describe.each([
   {
     options: {},
-    camelCaseAttributeName: "gatsbyPluginFixFoucIsLoading",
+    // "gatsby-plugin-fix-fouc-is-loading"
+    datasetKeyName: "gatsbyPluginFixFoucIsLoading",
     timeout: defaultOptions.timeout,
     minWidth: defaultOptions.minWidth,
   },
@@ -38,11 +39,11 @@ describe.each([
       timeout: 9999,
       minWidth: 2000,
     },
-    camelCaseAttributeName: "isLoading",
+    datasetKeyName: "isLoading",
     timeout: 9999,
     minWidth: 2000,
   },
-])(`onRenderBody (%#)`, ({ options, camelCaseAttributeName, timeout }) => {
+])(`onRenderBody (%#)`, ({ options, datasetKeyName, timeout }) => {
   beforeEach(() => {
     window.document.body.innerHTML = "";
   });
@@ -64,7 +65,7 @@ describe.each([
 
     describe(`loading-screen-fail-safe`, () => {
       test(`should remove data-attribute after timeout`, () => {
-        window.document.body.dataset[camelCaseAttributeName] = "true";
+        window.document.body.dataset[datasetKeyName] = "true";
 
         onRenderBody(renderBodyArgs, options);
 
@@ -75,15 +76,13 @@ describe.each([
           eval(script.textContent);
         }
 
-        expect(
-          window.document.body.dataset[camelCaseAttributeName],
-        ).toStrictEqual("true");
+        expect(window.document.body.dataset[datasetKeyName]).toStrictEqual(
+          "true",
+        );
 
         jest.advanceTimersByTime(timeout);
 
-        expect(
-          window.document.body.dataset[camelCaseAttributeName],
-        ).toBeUndefined();
+        expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
       });
     });
   });
@@ -102,9 +101,9 @@ describe.each([
       onRenderBody(renderBodyArgs, options);
 
       expect(renderBodyArgs.setBodyAttributes).toHaveBeenCalledTimes(1);
-      expect(
-        window.document.body.dataset[camelCaseAttributeName],
-      ).toStrictEqual("true");
+      expect(window.document.body.dataset[datasetKeyName]).toStrictEqual(
+        "true",
+      );
     });
   });
 });

@@ -11,53 +11,41 @@ const browserPluginArgs: BrowserPluginArgs = {
 
 describe(`onInitialClientRender`, () => {
   test(`should remove data attribute`, () => {
-    // const attributeName = "gatsby-plugin-fix-fouc-is-loading";
-    const camelCaseAttributeName = "gatsbyPluginFixFoucIsLoading";
+    // "gatsby-plugin-fix-fouc-is-loading"
+    const datasetKeyName = "gatsbyPluginFixFoucIsLoading";
 
-    window.document.body.dataset[camelCaseAttributeName] = "true";
+    window.document.body.dataset[datasetKeyName] = "true";
 
-    expect(window.document.body.dataset[camelCaseAttributeName]).toStrictEqual(
-      "true",
-    );
+    expect(window.document.body.dataset[datasetKeyName]).toStrictEqual("true");
 
     onInitialClientRender(browserPluginArgs, {});
 
-    expect(
-      window.document.body.dataset[camelCaseAttributeName],
-    ).toBeUndefined();
+    expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
   });
 
   test(`should remove data attribute (use attributeName Option)`, () => {
     const attributeName = "is-loading";
-    const camelCaseAttributeName = "isLoading";
+    const datasetKeyName = "isLoading";
 
-    window.document.body.dataset[camelCaseAttributeName] = "true";
+    window.document.body.dataset[datasetKeyName] = "true";
 
-    expect(window.document.body.dataset[camelCaseAttributeName]).toStrictEqual(
-      "true",
-    );
+    expect(window.document.body.dataset[datasetKeyName]).toStrictEqual("true");
 
     onInitialClientRender(browserPluginArgs, { attributeName });
 
-    expect(
-      window.document.body.dataset[camelCaseAttributeName],
-    ).toBeUndefined();
+    expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
   });
 
   test(`should not crashing if body dataset does not exist`, () => {
-    // const attributeName = "gatsby-plugin-fix-fouc-is-loading";
-    const camelCaseAttributeName = "gatsbyPluginFixFoucIsLoading";
+    // "gatsby-plugin-fix-fouc-is-loading"
+    const datasetKeyName = "gatsbyPluginFixFoucIsLoading";
 
-    delete window.document.body.dataset?.[camelCaseAttributeName];
+    delete window.document.body.dataset?.[datasetKeyName];
 
-    expect(
-      window.document.body.dataset[camelCaseAttributeName],
-    ).toBeUndefined();
+    expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
 
     onInitialClientRender(browserPluginArgs, {});
 
-    expect(
-      window.document.body.dataset[camelCaseAttributeName],
-    ).toBeUndefined();
+    expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
   });
 });
