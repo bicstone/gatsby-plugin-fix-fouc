@@ -1,7 +1,6 @@
 import * as React from "react";
 
-import { camelCase } from "camel-case";
-import { defaultOptions } from ".";
+import { defaultOptions, toCamelCase } from ".";
 import type { GatsbyPluginFixFoucOptions } from ".";
 
 import type { RenderBodyArgs } from "gatsby";
@@ -43,9 +42,9 @@ export const onRenderBody = (
           `setTimeout(function(){` +
           `try{` +
           `if(` +
-          `document.body.dataset["${camelCase(attributeName)}"]!==undefined` +
+          `document.body.dataset["${toCamelCase(attributeName)}"]!==undefined` +
           `){` +
-          `delete document.body.dataset["${camelCase(attributeName)}"]` +
+          `delete document.body.dataset["${toCamelCase(attributeName)}"]` +
           `}` +
           `}catch(e){}` +
           `},${timeout})` +
