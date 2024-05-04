@@ -8,7 +8,7 @@
     {
       "files": ["*.ts"],
       "extends": [
-        "standard-with-typescript",
+        "love",
         "plugin:import/recommended",
         "plugin:import/typescript",
         "prettier"
