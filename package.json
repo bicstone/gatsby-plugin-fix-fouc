@@ -46,7 +46,7 @@
     "url": "https://github.com/bicstone/gatsby-plugin-fix-fouc/issues"
   },
   "homepage": "https://github.com/bicstone/gatsby-plugin-fix-fouc#readme",
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.2.1",
   "peerDependencies": {
     "gatsby": "^3 || ^4 || ^5"
   },
@@ -87,6 +87,6 @@
   ],
   "volta": {
     "node": "20.12.2",
-    "yarn": "4.1.1"
+    "yarn": "4.2.1"
   }
 }
