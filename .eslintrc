@@ -12,7 +12,10 @@
         "plugin:import/recommended",
         "plugin:import/typescript",
         "prettier"
-      ]
+      ],
+      "env": {
+        "jest": true
+      }
     }
   ]
 }
