@@ -53,14 +53,14 @@
   "devDependencies": {
     "@babel/cli": "7.24.7",
     "@babel/core": "7.24.7",
-    "@testing-library/dom": "10.2.0",
+    "@testing-library/dom": "10.3.1",
     "@testing-library/react": "16.0.0",
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.9",
+    "@types/node": "20.14.10",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "@typescript-eslint/eslint-plugin": "7.14.1",
-    "@typescript-eslint/parser": "7.14.1",
+    "@typescript-eslint/eslint-plugin": "7.15.0",
+    "@typescript-eslint/parser": "7.15.0",
     "all-contributors-cli": "6.26.1",
     "babel-preset-gatsby-package": "3.13.1",
     "eslint": "8.57.0",
@@ -69,7 +69,7 @@
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-n": "17.9.0",
-    "eslint-plugin-promise": "6.2.0",
+    "eslint-plugin-promise": "6.4.0",
     "gatsby": "5.13.6",
     "gatsby-plugin-utils": "4.13.1",
     "husky": "9.0.11",
@@ -80,7 +80,7 @@
     "react-dom": "18.3.1",
     "ts-jest": "29.1.5",
     "ts-node": "10.9.2",
-    "typescript": "5.5.2"
+    "typescript": "5.5.3"
   },
   "sideEffects": false,
   "workspaces": [
