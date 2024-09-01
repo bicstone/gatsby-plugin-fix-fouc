@@ -51,13 +51,13 @@
     "gatsby": "^3 || ^4 || ^5"
   },
   "devDependencies": {
-    "@babel/cli": "7.24.8",
+    "@babel/cli": "7.25.6",
     "@babel/core": "7.25.2",
     "@testing-library/dom": "10.4.0",
-    "@testing-library/react": "16.0.0",
+    "@testing-library/react": "16.0.1",
     "@types/jest": "29.5.12",
-    "@types/node": "20.16.1",
-    "@types/react": "18.3.4",
+    "@types/node": "20.16.3",
+    "@types/react": "18.3.5",
     "@types/react-dom": "18.3.0",
     "@typescript-eslint/eslint-plugin": "7.18.0",
     "@typescript-eslint/parser": "7.18.0",
