@@ -69,7 +69,7 @@
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.30.0",
     "eslint-plugin-n": "17.10.2",
-    "eslint-plugin-promise": "6.6.0",
+    "eslint-plugin-promise": "7.1.0",
     "gatsby": "5.13.7",
     "gatsby-plugin-utils": "4.13.1",
     "husky": "9.1.6",
