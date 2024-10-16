@@ -1,11 +1,17 @@
-import eslintConfigLove from 'eslint-config-love'
-// import eslintPluginImport from "eslint-plugin-import";
+import eslintConfigLove from "eslint-config-love";
 
+/** @type { import("eslint").Linter.Config[] } */
 export default [
   {
     ...eslintConfigLove,
-    // TODO: eslintPluginImport
-    files: ['**/*.js', '**/*.ts', '**/*.tsx'],
-    ignores: ['.yarn', 'coverage', 'node_modules', '*.js', '*.d.ts', 'e2e']
-  }
-]
+    files: ["**/*.ts", "**/*.tsx"],
+    rules: {
+      ...eslintConfigLove.rules,
+      // Tentatively changed from error to warn due to migration
+      "@typescript-eslint/no-magic-numbers": "warn",
+    },
+  },
+  {
+    ignores: [".yarn/", "coverage/", "e2e/", "*.js", "*.d.ts"],
+  },
+];

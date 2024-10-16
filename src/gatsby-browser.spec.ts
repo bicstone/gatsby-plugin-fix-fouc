@@ -6,7 +6,9 @@ import type { BrowserPluginArgs } from "gatsby";
 import { onInitialClientRender } from "./gatsby-browser";
 
 const browserPluginArgs: BrowserPluginArgs = {
-  getResourceURLsForPathname: () => {},
+  getResourceURLsForPathname: () => {
+    return "";
+  },
 };
 
 describe(`onInitialClientRender`, () => {
@@ -40,7 +42,8 @@ describe(`onInitialClientRender`, () => {
     // "gatsby-plugin-fix-fouc-is-loading"
     const datasetKeyName = "gatsbyPluginFixFoucIsLoading";
 
-    delete window.document.body.dataset?.[datasetKeyName];
+    // eslint-disable-next-line @typescript-eslint/no-dynamic-delete -- delete dataset
+    delete window.document.body.dataset[datasetKeyName];
 
     expect(window.document.body.dataset[datasetKeyName]).toBeUndefined();
 

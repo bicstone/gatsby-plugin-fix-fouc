@@ -11,6 +11,7 @@ export const onInitialClientRender = (
     pluginOptions.attributeName ?? defaultOptions.attributeName;
 
   try {
-    delete window.document.body.dataset?.[toCamelCase(attributeName)];
+    // eslint-disable-next-line @typescript-eslint/no-dynamic-delete -- delete dataset
+    delete window.document.body.dataset[toCamelCase(attributeName)];
   } catch (e) {}
 };
