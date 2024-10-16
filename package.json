@@ -20,7 +20,7 @@
     "build:emit": "tsc -p tsconfig.emitDeclarations.json",
     "lint": "eslint --cache",
     "lint:fix": "yarn lint --fix",
-    "format": "prettier --cache --ignore-path .eslintignore --write .",
+    "format": "prettier --cache --write .",
     "typecheck": "tsc -p . --noEmit && tsc -p ./e2e/tsconfig.json --noEmit",
     "test": "jest",
     "preinstall": "npx only-allow yarn",
