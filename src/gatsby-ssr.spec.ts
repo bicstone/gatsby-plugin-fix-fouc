@@ -1,7 +1,6 @@
 /**
  * @jest-environment jsdom
  */
-/* eslint-disable no-eval */
 
 import { defaultOptions } from ".";
 import { onRenderBody } from "./gatsby-ssr";
@@ -71,8 +70,9 @@ describe.each([
 
         expect(renderBodyArgs.setHeadComponents).toHaveBeenCalledTimes(1);
 
-        const script = window.document.body.firstChild?.childNodes?.[2];
+        const script = window.document.body.firstChild?.childNodes[2];
         if (typeof script?.textContent === "string") {
+          // eslint-disable-next-line no-eval -- spec test
           eval(script.textContent);
         }
 
@@ -91,8 +91,7 @@ describe.each([
     const renderBodyArgs = getRenderBodyArgs({
       setBodyAttributes: jest.fn((attributes) => {
         Object.entries(attributes).forEach(([k, v]) => {
-          // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
-          window.document.body.setAttribute(k, v);
+          window.document.body.setAttribute(k, v as string);
         });
       }),
     });
