@@ -63,6 +63,7 @@ describe.each([
     });
 
     describe(`loading-screen-fail-safe`, () => {
+      // eslint-disable-next-line max-nested-callbacks -- test case
       test(`should remove data-attribute after timeout`, () => {
         window.document.body.dataset[datasetKeyName] = "true";
 
@@ -90,7 +91,9 @@ describe.each([
   describe(`setBodyAttributes`, () => {
     const renderBodyArgs = getRenderBodyArgs({
       setBodyAttributes: jest.fn((attributes) => {
+        // eslint-disable-next-line max-nested-callbacks -- test case
         Object.entries(attributes).forEach(([k, v]) => {
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-type-assertion -- test code
           window.document.body.setAttribute(k, v as string);
         });
       }),

@@ -6,9 +6,7 @@ import type { BrowserPluginArgs } from "gatsby";
 import { onInitialClientRender } from "./gatsby-browser";
 
 const browserPluginArgs: BrowserPluginArgs = {
-  getResourceURLsForPathname: () => {
-    return "";
-  },
+  getResourceURLsForPathname: () => "",
 };
 
 describe(`onInitialClientRender`, () => {
