@@ -3935,12 +3935,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.17.47":
-  version: 20.17.47
-  resolution: "@types/node@npm:20.17.47"
+"@types/node@npm:20.17.50":
+  version: 20.17.50
+  resolution: "@types/node@npm:20.17.50"
   dependencies:
     undici-types: "npm:~6.19.2"
-  checksum: 10c0/df336ed7897177214d1c0f2c7e2f94bbc19da28bffd150ad67dfdb373ca55167479a266c836f99450ab6b6a71799a53583b3f4f159c5424255e9f3851cc9d431
+  checksum: 10c0/98a4f394c22b93e1bb37b3cfdfa5df7b79fcab19dafe80fe19e94126f897a8d2b3d58a4b680dc15591c5660bdd2f1ae49d6c59e7cbe7fc0c7cf433b0b984b389
   languageName: node
   linkType: hard
 
@@ -3992,13 +3992,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.3.21":
-  version: 18.3.21
-  resolution: "@types/react@npm:18.3.21"
+"@types/react@npm:18.3.22":
+  version: 18.3.22
+  resolution: "@types/react@npm:18.3.22"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10c0/b33424c62f01ab2404c60abef995e05aa1a696a636bdd77a34ef6c942d171c673b1e451d9dba7f9a169a83c9eef0ddfaf1ba08f6cef542df9404290199a73967
+  checksum: 10c0/d5d77d5329ed6cf6d2f77d778bfc128e2a4d1b0e30d8eebd5e295c207615842abaff57813cd39be5939a9c4aecacd3771f4e7a8d874d5a8002ff18809f237c19
   languageName: node
   linkType: hard
 
@@ -6859,9 +6859,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:14.3.3":
-  version: 14.3.3
-  resolution: "cypress@npm:14.3.3"
+"cypress@npm:14.4.0":
+  version: 14.4.0
+  resolution: "cypress@npm:14.4.0"
   dependencies:
     "@cypress/request": "npm:^3.0.8"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -6908,7 +6908,7 @@ __metadata:
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/b802fd1c29069037cf72d59fdfdb79c8b4779e5dd1fa58ea67c8b520fd66e64e204db9d03817950519779af081b925416ffd5ec23f7dcbf6ac52a9da1af5cfec
+  checksum: 10c0/bca4d04b3245dab4e7c57f36014f4b9b6920caba7b7c7b602c1bdd4e467fd3f9eeec0ca18ea82c3cdfa5aa5c2e396060fea2bd2c63325bc45bd7895c501f4a0b
   languageName: node
   linkType: hard
 
@@ -7439,7 +7439,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "e2e-6500a4@workspace:e2e"
   dependencies:
-    cypress: "npm:14.3.3"
+    cypress: "npm:14.4.0"
     gatsby: "npm:5.14.3"
     start-server-and-test: "npm:2.0.12"
   languageName: unknown
@@ -9336,8 +9336,8 @@ __metadata:
     "@testing-library/dom": "npm:10.4.0"
     "@testing-library/react": "npm:16.3.0"
     "@types/jest": "npm:29.5.14"
-    "@types/node": "npm:20.17.47"
-    "@types/react": "npm:18.3.21"
+    "@types/node": "npm:20.17.50"
+    "@types/react": "npm:18.3.22"
     "@types/react-dom": "npm:18.3.7"
     all-contributors-cli: "npm:6.26.1"
     babel-preset-gatsby-package: "npm:3.14.0"
