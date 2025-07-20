@@ -4347,12 +4347,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.19.7":
-  version: 20.19.7
-  resolution: "@types/node@npm:20.19.7"
+"@types/node@npm:20.19.9":
+  version: 20.19.9
+  resolution: "@types/node@npm:20.19.9"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/bd97ed8db9eaab0f66ff066944923bae3baf51c98b603be9f30ea53f2ceeb6ae6fb4bc5bda3d3cd54c90c2ddc146f2117287f42e64fdcac493790c28dd759763
+  checksum: 10c0/c6738131f1698258a5ac1e0185e4fc56977f7f566cd0ee11167f93f2339478470257bd82c5e1908a936a204e0ad7996d741356a1a07c04997a236161ea23a874
   languageName: node
   linkType: hard
 
@@ -7385,9 +7385,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:14.5.1":
-  version: 14.5.1
-  resolution: "cypress@npm:14.5.1"
+"cypress@npm:14.5.2":
+  version: 14.5.2
+  resolution: "cypress@npm:14.5.2"
   dependencies:
     "@cypress/request": "npm:^3.0.8"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -7435,7 +7435,7 @@ __metadata:
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/23c87cafcd2fe949af1b3297cc4c9c8f8d741f5dfa8119ff54b387227dba8dc0dbcfb2d160c4df5d4f281374524753598f3501f0fdf0b1ea66c5b8047484c0d2
+  checksum: 10c0/55d1ba4773dc7d22769e6566bbdd5a78fd16dde4a4806d474de18a2713ed313db3d0734486f774fe11b3078c66d6b03703dfac05c26746ee3d704317734ebc0e
   languageName: node
   linkType: hard
 
@@ -7949,7 +7949,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "e2e-6500a4@workspace:e2e"
   dependencies:
-    cypress: "npm:14.5.1"
+    cypress: "npm:14.5.2"
     gatsby: "npm:5.14.5"
     start-server-and-test: "npm:2.0.12"
   languageName: unknown
@@ -9971,7 +9971,7 @@ __metadata:
     "@testing-library/dom": "npm:10.4.0"
     "@testing-library/react": "npm:16.3.0"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:20.19.7"
+    "@types/node": "npm:20.19.9"
     "@types/react": "npm:18.3.23"
     "@types/react-dom": "npm:18.3.7"
     all-contributors-cli: "npm:6.26.1"
