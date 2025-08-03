@@ -10,7 +10,7 @@
   "devDependencies": {
     "cypress": "14.5.3",
     "gatsby": "5.14.5",
-    "start-server-and-test": "2.0.12"
+    "start-server-and-test": "2.0.13"
   },
   "volta": {
     "node": "20.19.4"
