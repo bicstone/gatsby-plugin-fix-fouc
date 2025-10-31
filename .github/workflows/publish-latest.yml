@@ -24,5 +24,3 @@ jobs:
       - run: yarn install
       - run: yarn build
       - run: npm publish --provenance --tag=latest
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
