@@ -19,9 +19,8 @@ export function toCamelCase(dataAttr: string): string {
   const s = dataAttr.replace("data-", "").toLowerCase();
 
   // Convert any '-x' to 'X'
-  return s.replace(/-([a-z])/g, function (g) {
-    return g[1].toUpperCase();
-  });
+  // eslint-disable-next-line prefer-named-capture-group -- ts(1503)
+  return s.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
 }
 
 /**
@@ -29,8 +28,7 @@ export function toCamelCase(dataAttr: string): string {
  * Gatsby Plugin Fix FOUC Ref Options
  */
 export interface GatsbyPluginFixFoucRefOptions
-  extends GatsbyPluginFixFoucOptions,
-    IPluginRefOptions {}
+  extends GatsbyPluginFixFoucOptions, IPluginRefOptions {}
 
 /**
  * @private
