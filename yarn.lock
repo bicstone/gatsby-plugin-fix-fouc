@@ -7997,9 +7997,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-love@npm:140.0.0":
-  version: 140.0.0
-  resolution: "eslint-config-love@npm:140.0.0"
+"eslint-config-love@npm:144.0.0":
+  version: 144.0.0
+  resolution: "eslint-config-love@npm:144.0.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.41.0"
     eslint-plugin-eslint-comments: "npm:^3.2.0"
@@ -8010,7 +8010,7 @@ __metadata:
   peerDependencies:
     eslint: ^9.35.0
     typescript: "*"
-  checksum: 10c0/9124b5545e068427391368210329f21d7278a6bc9dbb2ba8998f379d75e22b4cfc8690a151362450945de0bdba9e7f41ed1cc7261ace8dc3ee8ad90573b74812
+  checksum: 10c0/db322fb9ea901dee5a0ce80b10272e7bf93f9517b60ba83059aae44895cd6000899d85b17b69bc7e6aa3717350c80b2489e05d60f3cb0b9f510f41441ba849ad
   languageName: node
   linkType: hard
 
@@ -9430,7 +9430,7 @@ __metadata:
     all-contributors-cli: "npm:6.26.1"
     babel-preset-gatsby-package: "npm:3.15.0"
     eslint: "npm:9.39.2"
-    eslint-config-love: "npm:140.0.0"
+    eslint-config-love: "npm:144.0.0"
     gatsby: "npm:5.15.0"
     gatsby-plugin-utils: "npm:4.15.0"
     husky: "npm:9.1.7"

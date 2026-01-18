@@ -62,7 +62,7 @@
     "all-contributors-cli": "6.26.1",
     "babel-preset-gatsby-package": "3.15.0",
     "eslint": "9.39.2",
-    "eslint-config-love": "140.0.0",
+    "eslint-config-love": "144.0.0",
     "gatsby": "5.15.0",
     "gatsby-plugin-utils": "4.15.0",
     "husky": "9.1.7",
