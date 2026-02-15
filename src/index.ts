@@ -19,7 +19,7 @@ export function toCamelCase(dataAttr: string): string {
   const s = dataAttr.replace("data-", "").toLowerCase();
 
   // Convert any '-x' to 'X'
-  // eslint-disable-next-line prefer-named-capture-group -- ts(1503)
+  // eslint-disable-next-line prefer-named-capture-group, require-unicode-regexp -- ts(1503), target does not support the v flag
   return s.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
 }
 
