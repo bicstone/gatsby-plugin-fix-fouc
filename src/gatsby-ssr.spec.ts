@@ -10,6 +10,7 @@ import React from "react";
 
 jest.useFakeTimers();
 
+/* eslint-disable @typescript-eslint/strict-void-return -- jest mock functions */
 const getRenderBodyArgs = (
   renderBodyArgs?: Partial<RenderBodyArgs>,
 ): RenderBodyArgs => ({
@@ -23,6 +24,7 @@ const getRenderBodyArgs = (
   setBodyProps: jest.fn(),
   ...renderBodyArgs,
 });
+/* eslint-enable @typescript-eslint/strict-void-return */
 
 describe.each([
   {
