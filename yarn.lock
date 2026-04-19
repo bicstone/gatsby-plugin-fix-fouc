@@ -3853,10 +3853,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@standard-schema/spec@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@standard-schema/spec@npm:1.0.0"
-  checksum: 10c0/a1ab9a8bdc09b5b47aa8365d0e0ec40cc2df6437be02853696a0e377321653b0d3ac6f079a8c67d5ddbe9821025584b1fb71d9cc041a6666a96f1fadf2ece15f
+"@standard-schema/spec@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@standard-schema/spec@npm:1.1.0"
+  checksum: 10c0/d90f55acde4b2deb983529c87e8025fa693de1a5e8b49ecc6eb84d1fd96328add0e03d7d551442156c7432fd78165b2c26ff561b970a9a881f046abb78d6a526
   languageName: node
   linkType: hard
 
@@ -5245,17 +5245,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"arg@npm:5.0.2":
+  version: 5.0.2
+  resolution: "arg@npm:5.0.2"
+  checksum: 10c0/ccaf86f4e05d342af6666c569f844bec426595c567d32a8289715087825c2ca7edd8a3d204e4d2fb2aa4602e09a57d0c13ea8c9eea75aac3dbb4af5514e6800e
+  languageName: node
+  linkType: hard
+
 "arg@npm:^4.1.0":
   version: 4.1.3
   resolution: "arg@npm:4.1.3"
   checksum: 10c0/070ff801a9d236a6caa647507bdcc7034530604844d64408149a26b9e87c2f97650055c0f049abd1efc024b334635c01f29e0b632b371ac3f26130f4cf65997a
-  languageName: node
-  linkType: hard
-
-"arg@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "arg@npm:5.0.2"
-  checksum: 10c0/ccaf86f4e05d342af6666c569f844bec426595c567d32a8289715087825c2ca7edd8a3d204e4d2fb2aa4602e09a57d0c13ea8c9eea75aac3dbb4af5514e6800e
   languageName: node
   linkType: hard
 
@@ -5546,14 +5546,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.13.5":
-  version: 1.13.6
-  resolution: "axios@npm:1.13.6"
+"axios@npm:^1.15.0":
+  version: 1.15.1
+  resolution: "axios@npm:1.15.1"
   dependencies:
     follow-redirects: "npm:^1.15.11"
     form-data: "npm:^4.0.5"
-    proxy-from-env: "npm:^1.1.0"
-  checksum: 10c0/51fb5af055c3b85662fa97df17d986ae2c37d13bf86d50b6bb36b6b3a2dec6966a1d3a14ab3774b71707b155ae3597ed9b7babdf1a1a863d1a31840cb8e7ec71
+    proxy-from-env: "npm:^2.1.0"
+  checksum: 10c0/f8b5f3aa954cc1da283e32ad81882967a371dfec7dcc75174fcae93093daeb5399aec2ec587d04779f46b00ff1c297ac9edf3fa596452d6a3d455ce5b58093a4
   languageName: node
   linkType: hard
 
@@ -7208,9 +7208,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:15.13.0":
-  version: 15.13.0
-  resolution: "cypress@npm:15.13.0"
+"cypress@npm:15.13.1":
+  version: 15.13.1
+  resolution: "cypress@npm:15.13.1"
   dependencies:
     "@cypress/request": "npm:^3.0.10"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -7257,7 +7257,7 @@ __metadata:
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/2b6b235d93eb003c5d68e2b63a50c24f1c295f25ca008fc5ff1f60d80839a1d5e88e709e9e6e4c468492982076aaa4ace40d6ff237fdca2cc461fc9529e33f8f
+  checksum: 10c0/eecc539d15af2f5bfc7ab9cb5502fc1e2f9f71571dbcb392b5d99109786c63548dd4a0aa20c512beb61a0a76dee10ea6c421a79026e96fb3a9dddd59c319541d
   languageName: node
   linkType: hard
 
@@ -7740,9 +7740,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "e2e-6500a4@workspace:e2e"
   dependencies:
-    cypress: "npm:15.13.0"
+    cypress: "npm:15.13.1"
     gatsby: "npm:5.16.1"
-    start-server-and-test: "npm:3.0.0"
+    start-server-and-test: "npm:3.0.2"
   languageName: unknown
   linkType: soft
 
@@ -9613,7 +9613,7 @@ __metadata:
     husky: "npm:9.1.7"
     jest: "npm:30.3.0"
     jest-environment-jsdom: "npm:30.3.0"
-    prettier: "npm:3.8.1"
+    prettier: "npm:3.8.2"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     ts-jest: "npm:29.4.9"
@@ -11981,9 +11981,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joi@npm:^18.0.2":
-  version: 18.0.2
-  resolution: "joi@npm:18.0.2"
+"joi@npm:^18.1.2":
+  version: 18.1.2
+  resolution: "joi@npm:18.1.2"
   dependencies:
     "@hapi/address": "npm:^5.1.1"
     "@hapi/formula": "npm:^3.0.2"
@@ -11991,8 +11991,8 @@ __metadata:
     "@hapi/pinpoint": "npm:^2.0.1"
     "@hapi/tlds": "npm:^1.1.1"
     "@hapi/topo": "npm:^6.0.2"
-    "@standard-schema/spec": "npm:^1.0.0"
-  checksum: 10c0/e395e07df0051e7bd8da02436ef3f10d52561b0331b6c289de1725745f336a952b72672fc3687d4e81d3354f9b3580feb60ffca71281a585c48b63dade09e1fb
+    "@standard-schema/spec": "npm:^1.1.0"
+  checksum: 10c0/67d6fcbd81c017adf31ae6e0e6cd9d82ba25d6835d2981970ec0ea3198f2e8223aded756cdb8d5ed14fff3d6da2e2684a0767a770bcc544ce00fdcf9748e104a
   languageName: node
   linkType: hard
 
@@ -12557,6 +12557,13 @@ __metadata:
   version: 4.17.23
   resolution: "lodash@npm:4.17.23"
   checksum: 10c0/1264a90469f5bb95d4739c43eb6277d15b6d9e186df4ac68c3620443160fc669e2f14c11e7d8b2ccf078b81d06147c01a8ccced9aab9f9f63d50dcf8cace6bf6
+  languageName: node
+  linkType: hard
+
+"lodash@npm:^4.18.1":
+  version: 4.18.1
+  resolution: "lodash@npm:4.18.1"
+  checksum: 10c0/757228fc68805c59789e82185135cf85f05d0b2d3d54631d680ca79ec21944ec8314d4533639a14b8bcfbd97a517e78960933041a5af17ecb693ec6eecb99a27
   languageName: node
   linkType: hard
 
@@ -14508,12 +14515,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.8.1":
-  version: 3.8.1
-  resolution: "prettier@npm:3.8.1"
+"prettier@npm:3.8.2":
+  version: 3.8.2
+  resolution: "prettier@npm:3.8.2"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/33169b594009e48f570471271be7eac7cdcf88a209eed39ac3b8d6d78984039bfa9132f82b7e6ba3b06711f3bfe0222a62a1bfb87c43f50c25a83df1b78a2c42
+  checksum: 10c0/2d64bd01d269c8dd6d8c423a2a2e1fb88230a53aac523204b327de40059ccf8bd8e6fe70b8ce6154b97ed4442e9fd878504ff8a5330f3a4f64bd13d1576f7652
   languageName: node
   linkType: hard
 
@@ -14676,6 +14683,13 @@ __metadata:
   version: 1.1.0
   resolution: "proxy-from-env@npm:1.1.0"
   checksum: 10c0/fe7dd8b1bdbbbea18d1459107729c3e4a2243ca870d26d34c2c1bcd3e4425b7bcc5112362df2d93cc7fb9746f6142b5e272fd1cc5c86ddf8580175186f6ad42b
+  languageName: node
+  linkType: hard
+
+"proxy-from-env@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "proxy-from-env@npm:2.1.0"
+  checksum: 10c0/ed01729fd4d094eab619cd7e17ce3698b3413b31eb102c4904f9875e677cd207392795d5b4adee9cec359dfd31c44d5ad7595a3a3ad51c40250e141512281c58
   languageName: node
   linkType: hard
 
@@ -16062,23 +16076,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:3.0.0":
-  version: 3.0.0
-  resolution: "start-server-and-test@npm:3.0.0"
+"start-server-and-test@npm:3.0.2":
+  version: 3.0.2
+  resolution: "start-server-and-test@npm:3.0.2"
   dependencies:
-    arg: "npm:^5.0.2"
+    arg: "npm:5.0.2"
     bluebird: "npm:3.7.2"
     check-more-types: "npm:2.24.0"
     debug: "npm:4.4.3"
     execa: "npm:5.1.1"
     lazy-ass: "npm:1.6.0"
     tree-kill: "npm:1.2.2"
-    wait-on: "npm:9.0.4"
+    wait-on: "npm:9.0.5"
   bin:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: 10c0/f2a447eadfe8258de5f4515a4512b723425ca8e65e61af6a2753bbe87a04c85706c6a7e910159f5e422d126760e136c1231ec618f543b77a4f2a41095622a30f
+  checksum: 10c0/d440d643dd48e65128716503a3220ab76e40eafca0285b2f6de1b2ac223f0c26bdb692287933852755f88b0358d8efbb0768edbf8d83554db832b1e67c629149
   languageName: node
   linkType: hard
 
@@ -17498,18 +17512,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wait-on@npm:9.0.4":
-  version: 9.0.4
-  resolution: "wait-on@npm:9.0.4"
+"wait-on@npm:9.0.5":
+  version: 9.0.5
+  resolution: "wait-on@npm:9.0.5"
   dependencies:
-    axios: "npm:^1.13.5"
-    joi: "npm:^18.0.2"
-    lodash: "npm:^4.17.23"
+    axios: "npm:^1.15.0"
+    joi: "npm:^18.1.2"
+    lodash: "npm:^4.18.1"
     minimist: "npm:^1.2.8"
     rxjs: "npm:^7.8.2"
   bin:
     wait-on: bin/wait-on
-  checksum: 10c0/914d3a76eab98e1964e3de2286a6b911ec52e667dd0232cce7eadf63573a05a61ffb32db622d8707eec075a1d027d1b83583f2a506278a26f34f2e2103ad77d9
+  checksum: 10c0/79823ebda9bb08ae341abb49d298d001039071ac103f6557da69371ae92a6b35ea8faca0b1c349f08c7b6db0ea527705bea9044a6a41e5a0e4470ee9d95fdcd1
   languageName: node
   linkType: hard
 
