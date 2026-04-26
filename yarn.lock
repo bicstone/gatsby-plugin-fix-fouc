@@ -7224,9 +7224,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:15.13.1":
-  version: 15.13.1
-  resolution: "cypress@npm:15.13.1"
+"cypress@npm:15.14.0":
+  version: 15.14.0
+  resolution: "cypress@npm:15.14.0"
   dependencies:
     "@cypress/request": "npm:^3.0.10"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -7273,7 +7273,7 @@ __metadata:
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/eecc539d15af2f5bfc7ab9cb5502fc1e2f9f71571dbcb392b5d99109786c63548dd4a0aa20c512beb61a0a76dee10ea6c421a79026e96fb3a9dddd59c319541d
+  checksum: 10c0/117301c5553a2da07bcafdc7c9faaf7821610f8bbac5c449ddd14f6ce05029d8d3028e8c598d356f4b2f6c54deb8dcf4034a78a939b8b30f9039800c402cbaff
   languageName: node
   linkType: hard
 
@@ -7756,7 +7756,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "e2e-6500a4@workspace:e2e"
   dependencies:
-    cypress: "npm:15.13.1"
+    cypress: "npm:15.14.0"
     gatsby: "npm:5.16.1"
     start-server-and-test: "npm:3.0.2"
   languageName: unknown
@@ -9636,7 +9636,7 @@ __metadata:
     husky: "npm:9.1.7"
     jest: "npm:30.3.0"
     jest-environment-jsdom: "npm:30.3.0"
-    prettier: "npm:3.8.2"
+    prettier: "npm:3.8.3"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     ts-jest: "npm:29.4.9"
@@ -14547,12 +14547,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.8.2":
-  version: 3.8.2
-  resolution: "prettier@npm:3.8.2"
+"prettier@npm:3.8.3":
+  version: 3.8.3
+  resolution: "prettier@npm:3.8.3"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/2d64bd01d269c8dd6d8c423a2a2e1fb88230a53aac523204b327de40059ccf8bd8e6fe70b8ce6154b97ed4442e9fd878504ff8a5330f3a4f64bd13d1576f7652
+  checksum: 10c0/754816fd7593eb80f6376d7476d463e832c38a12f32775a82683adb6e35b772b1f484d65f19401507b983a8c8a7cd5a4a9f12006bd56491e8f35503473f77473
   languageName: node
   linkType: hard
 
