@@ -1,7 +1,9 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
+    "rootDir": "./src" /* TS 6.0 requires an explicit rootDir when emitting; keeps index.d.ts at the package root. */,
+    "outDir": "./" /* Emit index.d.ts at the package root next to the babel-built index.js. */
   },
   "include": ["src/index.ts"],
   "exclude": ["node_modules"]

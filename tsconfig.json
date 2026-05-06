@@ -2,6 +2,8 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
+    "ignoreDeprecations": "6.0" /* Suppress TS 6.0 deprecation errors for target=ES5 and moduleResolution=node; revisit before TS 7.0. */,
+
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
@@ -54,7 +56,7 @@
     // "emitDeclarationOnly": true,                      /* Only output d.ts files and not JavaScript files. */
     // "sourceMap": true                                 /* Create source map files for emitted JavaScript files. */,
     // "outFile": "./",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
-    "outDir": "./" /* Specify an output folder for all emitted files. */,
+    // "outDir": "./",                                  /* outDir lives in tsconfig.emitDeclarations.json so it does not trigger TS5011 on inheritors that only type-check (Cypress, e2e). */
     // "removeComments": true,                           /* Disable emitting comments. */
     // "noEmit": true,                                   /* Disable emitting files from a compilation. */
     // "importHelpers": true,                            /* Allow importing helper functions from tslib once per project, instead of including them per-file. */
