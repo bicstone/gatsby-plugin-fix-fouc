@@ -1,8 +1,7 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "types": ["cypress"],
-    "rootDir": "." /* TS 6.0 requires rootDir when an outDir is inherited from the base config and Cypress compiles individual test files. */
+    "types": ["cypress"]
   },
   "include": ["*.ts", "cypress/**/*.ts", "src/**/*.ts"],
   "exclude": ["node_modules"]
