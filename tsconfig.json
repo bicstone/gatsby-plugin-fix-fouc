@@ -2,6 +2,8 @@
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
+    "ignoreDeprecations": "6.0" /* Suppress TS 6.0 deprecation errors for target=ES5 and moduleResolution=node; revisit before TS 7.0. */,
+
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
