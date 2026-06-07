@@ -8,6 +8,16 @@
       "matchPackagePatterns": ["*"],
       "matchUpdateTypes": ["minor", "patch"],
       "platformAutomerge": true
+    },
+    {
+      "allowedVersions": "<19",
+      "description": "Gatsby.js が React 19 に未対応のため v18 系に固定する",
+      "matchPackageNames": [
+        "react",
+        "react-dom",
+        "@types/react",
+        "@types/react-dom"
+      ]
     }
   ]
 }
