@@ -16,5 +16,7 @@ jobs:
           node-version-file: ".node-version"
           cache: "yarn"
       - run: yarn install
+      - run: yarn cy:install
+        working-directory: e2e
       - run: yarn test
       - run: yarn e2e
