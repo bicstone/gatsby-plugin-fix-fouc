@@ -9,9 +9,9 @@
     "e2e:open": "start-server-and-test gb:develop http://localhost:8000 cy:open"
   },
   "devDependencies": {
-    "cypress": "15.16.0",
+    "cypress": "15.18.0",
     "gatsby": "5.16.1",
-    "start-server-and-test": "3.0.5"
+    "start-server-and-test": "3.0.11"
   },
   "volta": {
     "node": "22.23.0"
