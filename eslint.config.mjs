@@ -8,7 +8,13 @@ export default [
     rules: {
       ...eslintConfigLove.rules,
       // Tentatively changed from error to warn due to migration
-      "@typescript-eslint/no-magic-numbers": "warn",
+      // Keep the options from eslint-config-love; ESLint 10.8+ requires them
+      "@typescript-eslint/no-magic-numbers": [
+        "warn",
+        ...eslintConfigLove.rules["@typescript-eslint/no-magic-numbers"].slice(
+          1,
+        ),
+      ],
     },
   },
   {
