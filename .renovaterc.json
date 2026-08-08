@@ -18,6 +18,16 @@
         "@types/react",
         "@types/react-dom"
       ]
+    },
+    {
+      "allowedVersions": "<8",
+      "description": "babel-preset-gatsby-package が Babel 8 に未対応のため v7 系に固定する",
+      "matchPackageNames": ["@babel*"]
+    },
+    {
+      "allowedVersions": "<7",
+      "description": "ts-jest と @typescript-eslint が TypeScript 7 に未対応のため v6 系に固定する",
+      "matchPackageNames": ["typescript"]
     }
   ]
 }
