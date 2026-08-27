@@ -8203,20 +8203,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-love@npm:154.1.0":
-  version: 154.1.0
-  resolution: "eslint-config-love@npm:154.1.0"
+"eslint-config-love@npm:155.0.0":
+  version: 155.0.0
+  resolution: "eslint-config-love@npm:155.0.0"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.0.0"
     "@typescript-eslint/utils": "npm:^8.58.1"
-    eslint-plugin-import: "npm:^2.32.0"
     eslint-plugin-n: "npm:^18.0.1"
     eslint-plugin-promise: "npm:^7.2.0"
     typescript-eslint: "npm:^8.58.1"
   peerDependencies:
     eslint: ^9.35.0
     typescript: "*"
-  checksum: 10c0/3d1397ca27d69316c26a4f3300c8119d2004d440c000c0711cd253241b5a34a282eb82832056dc48c49f0dbc0b21410276f1dc90ec5bdf0ec27503f919984b4c
+  checksum: 10c0/5009f659394e13ff9a074bc228635dbc815ea699c6b58347e320f2228b24c772adfd8bfe5aee7534c7aa6c83db6759795573e6024e80605124ec970f66b57920
   languageName: node
   linkType: hard
 
@@ -8294,7 +8293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:^2.27.5, eslint-plugin-import@npm:^2.32.0":
+"eslint-plugin-import@npm:^2.27.5":
   version: 2.32.0
   resolution: "eslint-plugin-import@npm:2.32.0"
   dependencies:
@@ -9619,7 +9618,7 @@ __metadata:
     all-contributors-cli: "npm:6.26.1"
     babel-preset-gatsby-package: "npm:3.16.0"
     eslint: "npm:10.8.1"
-    eslint-config-love: "npm:154.1.0"
+    eslint-config-love: "npm:155.0.0"
     gatsby: "npm:5.16.1"
     gatsby-plugin-utils: "npm:4.16.0"
     husky: "npm:9.1.7"
