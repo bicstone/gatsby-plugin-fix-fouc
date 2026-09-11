@@ -1921,15 +1921,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-plugin-eslint-comments@npm:^4.0.0":
-  version: 4.6.0
-  resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:4.6.0"
+"@eslint-community/eslint-plugin-eslint-comments@npm:^4.7.0":
+  version: 4.8.0
+  resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:4.8.0"
   dependencies:
     escape-string-regexp: "npm:^4.0.0"
     ignore: "npm:^7.0.5"
   peerDependencies:
-    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/05d964f61aabb6ab0012608750605ac40cb32212858d291f4d10ac5ac66499f87e13c713da3719e7f5dd1460efd7d0805d27000fbc3d18f3326af83ddaad2bf3
+    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
+  checksum: 10c0/80117509c8f621a5856103586c1aa3410fa7e5f207e823378dbc1e6d297cfe38a0582f404c6232431fbeff99390c58b30836f7da2197d5356f7988e1b29e202c
   languageName: node
   linkType: hard
 
@@ -8427,19 +8427,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-love@npm:155.0.0":
-  version: 155.0.0
-  resolution: "eslint-config-love@npm:155.0.0"
+"eslint-config-love@npm:156.0.0":
+  version: 156.0.0
+  resolution: "eslint-config-love@npm:156.0.0"
   dependencies:
-    "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.0.0"
+    "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.7.0"
     "@typescript-eslint/utils": "npm:^8.58.1"
     eslint-plugin-n: "npm:^18.0.1"
-    eslint-plugin-promise: "npm:^7.2.0"
+    eslint-plugin-promise: "npm:^7.3.0"
     typescript-eslint: "npm:^8.58.1"
   peerDependencies:
-    eslint: ^9.35.0
+    eslint: ^10.0.0
     typescript: "*"
-  checksum: 10c0/5009f659394e13ff9a074bc228635dbc815ea699c6b58347e320f2228b24c772adfd8bfe5aee7534c7aa6c83db6759795573e6024e80605124ec970f66b57920
+  checksum: 10c0/e5d782161c600bf5be111139cb5ac6a5aa68966e86e168d0e76396f7924bb0544b83c106eadfb86969c9c2816b87cabcce53b05e9c59e732f3ffd9760161b0c0
   languageName: node
   linkType: hard
 
@@ -8596,14 +8596,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:^7.2.0":
-  version: 7.2.1
-  resolution: "eslint-plugin-promise@npm:7.2.1"
+"eslint-plugin-promise@npm:^7.3.0":
+  version: 7.3.0
+  resolution: "eslint-plugin-promise@npm:7.3.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.4.0"
   peerDependencies:
-    eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/d494982faeeafbd2aa5fae9cbceca546169a8399000f72d5d940fa5c4ba554612903bcafbb8033647179e5d21ccf1d621b433d089695f7f47ce3d9fcf4cd0abf
+    eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
+  checksum: 10c0/417d3ab57895143bd687aa840804d0d7bbe70227242530eea7d4af7ae680a67d6872ce3a2adcc36dec29009d1861c63717c5887c30da1887153c8e5a181f3eb5
   languageName: node
   linkType: hard
 
@@ -9842,7 +9842,7 @@ __metadata:
     all-contributors-cli: "npm:6.26.1"
     babel-preset-gatsby-package: "npm:3.16.0"
     eslint: "npm:10.9.1"
-    eslint-config-love: "npm:155.0.0"
+    eslint-config-love: "npm:156.0.0"
     gatsby: "npm:5.16.1"
     gatsby-plugin-utils: "npm:4.16.0"
     husky: "npm:9.1.7"
