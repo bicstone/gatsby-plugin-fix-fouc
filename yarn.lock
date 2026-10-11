@@ -4362,12 +4362,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.20.4":
-  version: 22.20.4
-  resolution: "@types/node@npm:22.20.4"
+"@types/node@npm:22.20.5":
+  version: 22.20.5
+  resolution: "@types/node@npm:22.20.5"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/3a17e19f7b7b7a6d6c695ef8b0a34b70f84829a1539f57d338487bc3b51ddd4ca86ffbcbcc4f1307a41de83d02c1b7dfbb16e8cb6a9c3a8360b4306ccf9ead2d
+  checksum: 10c0/0cf61a89c6a69917ab49f976a6bb11a29e3b348a6ae19f5827ceb91d3ade781faab58dcf3b8fa625f975f5d7536b9166ff94e8250c29272c667164f77c28fa88
   languageName: node
   linkType: hard
 
@@ -7470,9 +7470,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:16.1.0":
-  version: 16.1.0
-  resolution: "cypress@npm:16.1.0"
+"cypress@npm:16.1.1":
+  version: 16.1.1
+  resolution: "cypress@npm:16.1.1"
   dependencies:
     "@cypress/request": "npm:^4.0.0"
     "@cypress/xvfb": "npm:^1.2.4"
@@ -7515,7 +7515,7 @@ __metadata:
     yauzl: "npm:^3.3.1"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/8fe5311971273f38466d2fd4200b47beafbd6726bbb1d8235a528770951249ecef56e4fd67ed0574a3225ad60e28fdb7cc0e6937535ed8caa0c9805b3d01d898
+  checksum: 10c0/495d3565ae0daf4891164688c72b96c850d151bac0f0cb044ff4cb5f0a74a2c1f53f8298f91966739524399a6152784bcffb85a3a7f88038fa9d7819d7bec648
   languageName: node
   linkType: hard
 
@@ -8005,7 +8005,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "e2e-6500a4@workspace:e2e"
   dependencies:
-    cypress: "npm:16.1.0"
+    cypress: "npm:16.1.1"
     gatsby: "npm:5.16.1"
     start-server-and-test: "npm:3.0.12"
   languageName: unknown
@@ -8774,9 +8774,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:10.11.0":
-  version: 10.11.0
-  resolution: "eslint@npm:10.11.0"
+"eslint@npm:10.12.0":
+  version: 10.12.0
+  resolution: "eslint@npm:10.12.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.8.0"
     "@eslint-community/regexpp": "npm:^4.12.2"
@@ -8815,7 +8815,7 @@ __metadata:
       optional: true
   bin:
     eslint: bin/eslint.js
-  checksum: 10c0/c767f45f21d1921b41d70e30b1c8fa7ec4e65c0f43a8d80cc4990ca3d923127fa7b9b3416b8f5be6e877d9286f97d3c51a04ed341bc6aa73c0dba0f463e1f861
+  checksum: 10c0/1302ce8a7df2f67fe8f4014b2f9449bd38eb86903ba7b841d9a8ca5a5daf8ee15442861ab870e96c0074d5f333b405d7b2f16388981f807db410cc3a02178af9
   languageName: node
   linkType: hard
 
@@ -9898,22 +9898,22 @@ __metadata:
     "@testing-library/dom": "npm:10.4.2"
     "@testing-library/react": "npm:16.3.3"
     "@types/jest": "npm:30.0.0"
-    "@types/node": "npm:22.20.4"
+    "@types/node": "npm:22.20.5"
     "@types/react": "npm:18.3.31"
     "@types/react-dom": "npm:18.3.7"
     all-contributors-cli: "npm:6.26.1"
     babel-preset-gatsby-package: "npm:3.16.0"
-    eslint: "npm:10.11.0"
+    eslint: "npm:10.12.0"
     eslint-config-love: "npm:158.0.0"
     gatsby: "npm:5.16.1"
     gatsby-plugin-utils: "npm:4.16.0"
     husky: "npm:9.1.7"
     jest: "npm:30.5.2"
     jest-environment-jsdom: "npm:30.5.2"
-    prettier: "npm:3.9.8"
+    prettier: "npm:3.9.9"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
-    ts-jest: "npm:29.4.12"
+    ts-jest: "npm:29.4.14"
     ts-node: "npm:10.9.2"
     typescript: "npm:6.0.3"
   peerDependencies:
@@ -14893,12 +14893,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.9.8":
-  version: 3.9.8
-  resolution: "prettier@npm:3.9.8"
+"prettier@npm:3.9.9":
+  version: 3.9.9
+  resolution: "prettier@npm:3.9.9"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/257e5ef11ba5006d0b0712271705701c065c8003e07763f996ce185d39633902f3fe1f814839eed76f75c97b6d5376d6157bd9f44db18cacb1dbdcb263cc66ae
+  checksum: 10c0/d50ea2537b2ff7dbd5088a214f4d936484e55c665cea2185b477a55b0770be55f3b156a71f63a9a639def6b334667bb327139dc85f2a1041c0a34752cdc74647
   languageName: node
   linkType: hard
 
@@ -17241,9 +17241,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:29.4.12":
-  version: 29.4.12
-  resolution: "ts-jest@npm:29.4.12"
+"ts-jest@npm:29.4.14":
+  version: 29.4.14
+  resolution: "ts-jest@npm:29.4.14"
   dependencies:
     bs-logger: "npm:^0.2.6"
     fast-json-stable-stringify: "npm:^2.1.0"
@@ -17255,7 +17255,7 @@ __metadata:
     type-fest: "npm:^4.41.0"
     yargs-parser: "npm:^21.1.1"
   peerDependencies:
-    "@babel/core": ">=7.0.0-beta.0 <8"
+    "@babel/core": ">=7.0.0-beta.0 <9"
     "@jest/transform": ^29.0.0 || ^30.0.0
     "@jest/types": ^29.0.0 || ^30.0.0
     babel-jest: ^29.0.0 || ^30.0.0
@@ -17277,7 +17277,7 @@ __metadata:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: 10c0/cf08cf4b417085578db038b525c8b22cf6af689601eab697fe84a46fa07bddcd506bd961c607c8f25c705e90ea8ac8ecf258fc200161f4e0882d0d7db4db9ec9
+  checksum: 10c0/58780804871e5752d7f42e69a38ea0716d0a6330272f3a253cf10dbf8c59390f64f2da6fff3d93dcb1bc514d8fa5d02963d8ef6d062fdfa96113b3aad0fd9331
   languageName: node
   linkType: hard
 
