@@ -5755,15 +5755,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.18.1":
-  version: 1.19.0
-  resolution: "axios@npm:1.19.0"
+"axios@npm:^1.20.0":
+  version: 1.20.0
+  resolution: "axios@npm:1.20.0"
   dependencies:
     follow-redirects: "npm:^1.16.0"
     form-data: "npm:^4.0.6"
     https-proxy-agent: "npm:^5.0.1"
     proxy-from-env: "npm:^2.1.0"
-  checksum: 10c0/559fe7d51291787def61566a3db78b87510c8faf9c8a8c006d9d8b933808628ff0d8eca7756b40ae25e07da96d946c68c1ffba3da9075ed0b5d3661801d76869
+  checksum: 10c0/976088acf532286356f4c2e65df1ef47ba7da3936d83e928d0d64357bbf5370456abd3eb5826c15df322335fcb1fe200d4a84b4fcf20ffccdd63b40d80fa495c
   languageName: node
   linkType: hard
 
@@ -8007,7 +8007,7 @@ __metadata:
   dependencies:
     cypress: "npm:16.1.1"
     gatsby: "npm:5.16.1"
-    start-server-and-test: "npm:3.0.12"
+    start-server-and-test: "npm:3.0.13"
   languageName: unknown
   linkType: soft
 
@@ -9910,7 +9910,7 @@ __metadata:
     husky: "npm:9.1.7"
     jest: "npm:30.5.2"
     jest-environment-jsdom: "npm:30.5.2"
-    prettier: "npm:3.9.9"
+    prettier: "npm:3.9.10"
     react: "npm:18.3.1"
     react-dom: "npm:18.3.1"
     ts-jest: "npm:29.4.14"
@@ -12329,9 +12329,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joi@npm:^18.2.3":
-  version: 18.2.3
-  resolution: "joi@npm:18.2.3"
+"joi@npm:^18.2.9":
+  version: 18.3.0
+  resolution: "joi@npm:18.3.0"
   dependencies:
     "@hapi/address": "npm:^5.1.1"
     "@hapi/formula": "npm:^3.0.2"
@@ -12340,7 +12340,7 @@ __metadata:
     "@hapi/tlds": "npm:^1.1.1"
     "@hapi/topo": "npm:^6.0.2"
     "@standard-schema/spec": "npm:^1.1.0"
-  checksum: 10c0/ccf2cba791968330208d05ab2e4459d1f9532a31fd5323795734184dfa628a9373bca4252fc0b636a36656c5b7be4a28e986715737a8a779b8103a28d9988cd2
+  checksum: 10c0/13b4ab345a79562fa57e483208c1fcb71fbb56bd52ccd97c295db80a5d40e03ec130364080375afe2035f33b3b9f79a9b1b0bb508b90b8f2517eb3e52c9bb27b
   languageName: node
   linkType: hard
 
@@ -14893,12 +14893,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.9.9":
-  version: 3.9.9
-  resolution: "prettier@npm:3.9.9"
+"prettier@npm:3.9.10":
+  version: 3.9.10
+  resolution: "prettier@npm:3.9.10"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/d50ea2537b2ff7dbd5088a214f4d936484e55c665cea2185b477a55b0770be55f3b156a71f63a9a639def6b334667bb327139dc85f2a1041c0a34752cdc74647
+  checksum: 10c0/0b3531593aa6fb36ac6baf629cb058bda472c59a6938774f931fe55283a07c62e6f56e621b043a82d8a3e21fc284c08c34f9e539fc70072635f79b7bae1a1067
   languageName: node
   linkType: hard
 
@@ -16475,9 +16475,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"start-server-and-test@npm:3.0.12":
-  version: 3.0.12
-  resolution: "start-server-and-test@npm:3.0.12"
+"start-server-and-test@npm:3.0.13":
+  version: 3.0.13
+  resolution: "start-server-and-test@npm:3.0.13"
   dependencies:
     arg: "npm:5.0.2"
     check-more-types: "npm:2.24.0"
@@ -16485,12 +16485,12 @@ __metadata:
     execa: "npm:5.1.1"
     lazy-ass: "npm:2.0.3"
     tree-kill: "npm:1.2.2"
-    wait-on: "npm:9.1.0"
+    wait-on: "npm:9.5.1"
   bin:
     server-test: src/bin/start.js
     start-server-and-test: src/bin/start.js
     start-test: src/bin/start.js
-  checksum: 10c0/d8bb5452ee300740836f4e53386353a9696fac0d763af4a9af7cac6d08b940686b7b3663f7847922433bce8fc784a0b90c7e143bb508788391b9c4e2b9b9a319
+  checksum: 10c0/d27238a3cce280e834e55e0b43b446b3b7dafd92f24b225e06977a4758093018b037dac5e01595619093619128bf2ac75ae961a659a85aed286d5de975e4597b
   languageName: node
   linkType: hard
 
@@ -17931,18 +17931,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wait-on@npm:9.1.0":
-  version: 9.1.0
-  resolution: "wait-on@npm:9.1.0"
+"wait-on@npm:9.5.1":
+  version: 9.5.1
+  resolution: "wait-on@npm:9.5.1"
   dependencies:
-    axios: "npm:^1.18.1"
-    joi: "npm:^18.2.3"
+    axios: "npm:^1.20.0"
+    joi: "npm:^18.2.9"
     lodash: "npm:^4.18.1"
-    minimist: "npm:^1.2.8"
     rxjs: "npm:^7.8.2"
   bin:
     wait-on: bin/wait-on
-  checksum: 10c0/6179b3a06718d8f6ed8b4d5d50c789cc965979a483c0d75b4868de2b5188272d2f94b872f384afbfc3d6b55155f29ae51b1b38e4e4e6b2ee5bfd695e66310733
+  checksum: 10c0/6ff776a9a289db217febd4d399ce65931d38cec328382d209f5fd972729d7423dda0befd9ce00dc7e13d0d49ddd78bca0d6896e6a077fe4a24d62f885b7be73b
   languageName: node
   linkType: hard
 
