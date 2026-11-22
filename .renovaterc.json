@@ -28,6 +28,11 @@
       "allowedVersions": "<7",
       "description": "ts-jest と @typescript-eslint が TypeScript 7 に未対応のため v6 系に固定する",
       "matchPackageNames": ["typescript"]
+    },
+    {
+      "allowedVersions": "<25",
+      "description": "Gatsby.js が Node.js 26 に未対応のため v24 系に固定する",
+      "matchPackageNames": ["node", "@types/node"]
     }
   ]
 }
